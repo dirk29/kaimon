@@ -1,0 +1,177 @@
+{
+  "name": "kaimon",
+  "displayName": "kaimon \u2014 Agent Integrity Monitor",
+  "description": "See every file your AI coding agents change, and which changes raise risk findings. Monitors the entire host \u2014 every filesystem \u2014 and attributes each write to the agent that caused it, however deep the process chain. Claude Code, Codex, Copilot, Cursor, Antigravity, Cline, Kilo Code, OpenCode, Pi, MCP servers and more. Requires a Linux workspace with root: on a Linux desktop, over Remote-SSH or in WSL 2; install it there.",
+  "version": "1.4.0",
+  "publisher": "kaimon",
+  "icon": "assets/icon.png",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dirk29/kaimon"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "ai",
+    "agent",
+    "security",
+    "audit",
+    "ebpf"
+  ],
+  "extensionKind": [
+    "workspace"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "kaimon.showActivity",
+        "title": "Show Agent Activity",
+        "category": "kaimon"
+      },
+      {
+        "command": "kaimon.showReport",
+        "title": "Open Report",
+        "category": "kaimon"
+      },
+      {
+        "command": "kaimon.refresh",
+        "title": "Refresh Now",
+        "category": "kaimon"
+      }
+    ],
+    "configuration": {
+      "title": "kaimon",
+      "properties": {
+        "kaimon.window": {
+          "type": "string",
+          "default": "1h",
+          "markdownDescription": "Window the status bar and activity panel report on, as a Go duration (`15m`, `1h`, `6h`). This is effectively how long a finding stays visible: the badge goes quiet once the last finding ages out, so a short window can retire an alert before anyone glances at it. The daemon's batch cadence sets the floor \u2014 below one batch interval the window can legitimately be empty."
+        },
+        "kaimon.path": {
+          "type": "string",
+          "default": "kaimon",
+          "description": "Path to the kaimon CLI. The .deb/.rpm installs it at /usr/bin/kaimon."
+        },
+        "kaimon.refreshSeconds": {
+          "type": "number",
+          "default": 30,
+          "minimum": 5,
+          "description": "How often to re-read the sink for the status bar."
+        }
+      }
+    },
+    "icons": {
+      "kaimon-claude": {
+        "description": "Claude actor mark",
+        "default": {
+          "fontPath": "./assets/kaimon-actors.woff",
+          "fontCharacter": "\\E900"
+        }
+      },
+      "kaimon-codex": {
+        "description": "Codex actor mark",
+        "default": {
+          "fontPath": "./assets/kaimon-actors.woff",
+          "fontCharacter": "\\E901"
+        }
+      },
+      "kaimon-gemini": {
+        "description": "Gemini actor mark",
+        "default": {
+          "fontPath": "./assets/kaimon-actors.woff",
+          "fontCharacter": "\\E902"
+        }
+      },
+      "kaimon-cursor": {
+        "description": "Cursor actor mark",
+        "default": {
+          "fontPath": "./assets/kaimon-actors.woff",
+          "fontCharacter": "\\E903"
+        }
+      },
+      "kaimon-mcp": {
+        "description": "Model Context Protocol mark",
+        "default": {
+          "fontPath": "./assets/kaimon-actors.woff",
+          "fontCharacter": "\\E904"
+        }
+      },
+      "kaimon-eye": {
+        "description": "kaimon eye mark",
+        "default": {
+          "fontPath": "./assets/kaimon-actors.woff",
+          "fontCharacter": "\\E905"
+        }
+      },
+      "kaimon-copilot": {
+        "description": "GitHub Copilot actor mark",
+        "default": {
+          "fontPath": "./assets/kaimon-actors.woff",
+          "fontCharacter": "\\E906"
+        }
+      },
+      "kaimon-opencode": {
+        "description": "OpenCode actor mark",
+        "default": {
+          "fontPath": "./assets/kaimon-actors.woff",
+          "fontCharacter": "\\E907"
+        }
+      },
+      "kaimon-junie": {
+        "description": "Junie actor mark",
+        "default": {
+          "fontPath": "./assets/kaimon-actors.woff",
+          "fontCharacter": "\\E908"
+        }
+      },
+      "kaimon-antigravity": {
+        "description": "Antigravity actor mark",
+        "default": {
+          "fontPath": "./assets/kaimon-actors.woff",
+          "fontCharacter": "\\E909"
+        }
+      },
+      "kaimon-pi": {
+        "description": "Pi actor mark",
+        "default": {
+          "fontPath": "./assets/kaimon-actors.woff",
+          "fontCharacter": "\\E90A"
+        }
+      },
+      "kaimon-cline": {
+        "description": "Cline actor mark",
+        "default": {
+          "fontPath": "./assets/kaimon-actors.woff",
+          "fontCharacter": "\\E90B"
+        }
+      },
+      "kaimon-kilo": {
+        "description": "Kilo Code actor mark",
+        "default": {
+          "fontPath": "./assets/kaimon-actors.woff",
+          "fontCharacter": "\\E90C"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "vscode:prepublish": "npm run compile",
+    "test": "tsc -p ./ && node --test \"test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/vscode": "^1.90.0",
+    "typescript": "^5.6.0"
+  }
+}

@@ -1,0 +1,26 @@
+kaimon AIM for VS Code
+Copyright 2026 kaimon LLC
+
+This extension is licensed under the Apache License, Version 2.0 (see LICENSE).
+It covers this extension only. The kaimond daemon, the kaimon CLI and the
+detection ruleset they ship with are separate, proprietary software of
+kaimon LLC under their own license, installed separately on the Linux host.
+
+Trademarks
+
+"kaimon", "kaimond" and the kaimon eye logo are trademarks of kaimon LLC.
+As section 6 of the Apache License states, the license grants no permission
+to use them, except as required to describe the origin of this work and to
+reproduce this NOTICE file.
+
+Third-party marks
+
+The agent marks in assets/actor-svg/ (except kaimon.svg) and the
+corresponding glyphs in the icon font assets/kaimon-actors.woff identify
+other companies' products: Anthropic (Claude Code), OpenAI (Codex), GitHub
+(Copilot), Google (Antigravity, Gemini), Anysphere (Cursor), JetBrains
+(Junie), Cline, Kilo Code, OpenCode, Pi and the Model Context Protocol. They
+are the trademarks or logos of their respective owners, are not covered by
+the Apache License and are not licensed by kaimon LLC. They are shown only to
+identify which product made a file change. kaimon LLC is not affiliated with,
+sponsored or endorsed by any of these companies or projects.

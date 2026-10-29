@@ -1,0 +1,62 @@
+name: Bug report
+description: Something in the extension, the daemon or the report is wrong.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please don't paste file paths or report output you'd rather keep private. Security issues go to security@kaimon.co, not here.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: check
+    attributes:
+      label: Output of `sudo kaimond --check`
+      description: Run it on the Linux host where the daemon is installed.
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Output of `kaimond --version` (first line), and the extension version from the Extensions view.
+      placeholder: "kaimond 1.3.20, extension 0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: host
+    attributes:
+      label: Distribution and kernel
+      description: Output of `. /etc/os-release && echo "$PRETTY_NAME $(uname -r)"`
+      placeholder: "Ubuntu 26.04 LTS 7.0.0-38-generic"
+    validations:
+      required: true
+  - type: dropdown
+    id: window
+    attributes:
+      label: How VS Code connects to the host
+      options:
+        - Local Linux desktop
+        - Remote-SSH
+        - WSL
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: editor
+    attributes:
+      label: Editor and version
+      description: VS Code, VSCodium, Cursor, Antigravity, and so on.
+      placeholder: "VS Code 1.143.1"
+  - type: input
+    id: agent
+    attributes:
+      label: Agent involved
+      description: The coding agent and its version, if the bug is about one.
+      placeholder: "Claude Code 2.1.197"

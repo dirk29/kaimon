@@ -1,0 +1,14 @@
+.vscode/**
+src/**
+node_modules/**
+tsconfig.json
+**/*.map
+.gitignore
+dev/**
+assets/actor-svg/**
+assets/build-font.js
+assets/kaimon-actors.svg
+test/**
+sst-env.d.ts
+.github/**
+images/**

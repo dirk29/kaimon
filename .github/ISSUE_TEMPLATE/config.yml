@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security issue
+    url: https://kaimon.co/security.html
+    about: Report a vulnerability privately to security@kaimon.co, not in a public issue.
+  - name: kaimon cloud for teams
+    url: https://kaimon.co
+    about: Team-wide reports and longer retention. Questions to hello@kaimon.co.

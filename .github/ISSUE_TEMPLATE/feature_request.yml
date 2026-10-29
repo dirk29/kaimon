@@ -1,0 +1,28 @@
+name: Feature request
+description: An agent, editor or risk kaimon should cover, or something the extension should show.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What you're trying to do
+      description: The situation and what you'd want to see. A real example helps most.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options:
+        - An agent or editor that isn't recognized
+        - A risky change that isn't flagged
+        - A routine change that is flagged
+        - Something in the status bar, hover, panel or report
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: For an agent or editor, its name, version and how you run it. For a rule, the command or file involved.
