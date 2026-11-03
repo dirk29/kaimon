@@ -1,0 +1,6359 @@
+{
+  "meta": {
+    "schema": "kaimon/2",
+    "module": "aim",
+    "host": "dev1",
+    "start_time": "2026-11-02T18:31:00Z",
+    "end_time": "2026-11-02T19:31:53Z",
+    "is_window": true,
+    "window": "1h",
+    "bucket_seconds": 60,
+    "generated_at": "2026-11-02T19:31:54Z",
+    "evidence": false
+  },
+  "logs": {
+    "in_window": 19930,
+    "out_of_window": 0,
+    "out_of_scope": 15588,
+    "malformed": 0,
+    "files_read": 40,
+    "files_skipped": 0
+  },
+  "hosts": {
+    "discovered": 1,
+    "included_list": [
+      "dev1"
+    ]
+  },
+  "kpi": {
+    "file_changes": 4342,
+    "file_changes_unique": 3547,
+    "file_changes_risk": 1049,
+    "file_changes_risk_unique": 960,
+    "file_changes_routine": 3293,
+    "file_changes_routine_unique": 2587,
+    "hosts": 1,
+    "users": 1,
+    "agents": 4,
+    "tools": 9,
+    "files": 3507,
+    "file_events": {
+      "create": 3349,
+      "modify": 13986,
+      "attrib": 34,
+      "move": 71,
+      "delete": 2450,
+      "write": 1774
+    }
+  },
+  "timeseries": [
+    {
+      "time_slot": "2026-11-02T18:31:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:32:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:33:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:34:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:35:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:36:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:37:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:38:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:39:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:40:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:41:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:42:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:43:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:44:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:45:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:46:00Z",
+      "file_changes": 173,
+      "file_changes_risk": 91,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 61
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:47:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:48:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:49:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:50:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:51:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:52:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:53:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:54:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:55:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:56:00Z",
+      "file_changes": 1391,
+      "file_changes_risk": 14,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 1
+        },
+        {
+          "name": "LOW",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:57:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:58:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T18:59:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:00:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:01:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:02:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:03:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:04:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:05:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:06:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:07:00Z",
+      "file_changes": 2447,
+      "file_changes_risk": 888,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 1
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 843
+        },
+        {
+          "name": "LOW",
+          "count": 44
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:08:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:09:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:10:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:11:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:12:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:13:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:14:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:15:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:16:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:17:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:18:00Z",
+      "file_changes": 185,
+      "file_changes_risk": 24,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 4
+        },
+        {
+          "name": "MEDIUM",
+          "count": 20
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:19:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:20:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:21:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:22:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:23:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:24:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:25:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:26:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:27:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:28:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:29:00Z",
+      "file_changes": 142,
+      "file_changes_risk": 32,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 1
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 31
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:30:00Z",
+      "file_changes": 4,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "time_slot": "2026-11-02T19:31:00Z",
+      "file_changes": 0,
+      "file_changes_risk": 0,
+      "severity_counts": [
+        {
+          "name": "CRITICAL",
+          "count": 0
+        },
+        {
+          "name": "HIGH",
+          "count": 0
+        },
+        {
+          "name": "MEDIUM",
+          "count": 0
+        },
+        {
+          "name": "LOW",
+          "count": 0
+        }
+      ]
+    }
+  ],
+  "severity_counts": [
+    {
+      "name": "CRITICAL",
+      "count": 2
+    },
+    {
+      "name": "HIGH",
+      "count": 65
+    },
+    {
+      "name": "MEDIUM",
+      "count": 864
+    },
+    {
+      "name": "LOW",
+      "count": 118
+    }
+  ],
+  "file_changes_risk_summary": {
+    "categories": [
+      {
+        "name": "PACKAGE_MOD",
+        "count": 843
+      },
+      {
+        "name": "SESSION_CACHE",
+        "count": 92
+      },
+      {
+        "name": "MASS_DELETE",
+        "count": 60
+      },
+      {
+        "name": "TEMP_WRITE",
+        "count": 22
+      }
+    ],
+    "agents": [
+      {
+        "name": "codex",
+        "count": 877
+      },
+      {
+        "name": "claude",
+        "count": 123
+      },
+      {
+        "name": "copilot",
+        "count": 25
+      }
+    ],
+    "tools": [
+      {
+        "name": "node:npm",
+        "count": 843
+      },
+      {
+        "name": "gnurm",
+        "count": 60
+      },
+      {
+        "name": "git",
+        "count": 54
+      }
+    ],
+    "users": [
+      {
+        "name": "dirk",
+        "count": 1049
+      }
+    ],
+    "first_seen": "2026-11-02T18:46:08Z",
+    "last_seen": "2026-11-02T19:29:17Z"
+  },
+  "top_file_changes_risk": [
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "codex",
+      "tools": "bash",
+      "process": "bash",
+      "file": "/home/dirk/.ssh/authorized_keys",
+      "file_events": {
+        "create": 0,
+        "modify": 1,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 1
+      },
+      "file_size_change": 95,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 1,
+      "first_seen": "2026-11-02T19:07:40Z",
+      "last_seen": "2026-11-02T19:07:40Z",
+      "risk_category": "CRED_WRITE",
+      "risk_severity": "CRITICAL",
+      "risk_priority": 1,
+      "risk_description": "Detects an AI agent writing to SSH keys or config"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "claude",
+      "tools": "sed",
+      "process": "sed",
+      "file": "/home/dirk/.bash_history",
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 0,
+        "move": 1,
+        "delete": 0,
+        "write": 0
+      },
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 1,
+      "first_seen": "2026-11-02T19:29:17Z",
+      "last_seen": "2026-11-02T19:29:17Z",
+      "risk_category": "LOG_TAMPERING",
+      "risk_severity": "CRITICAL",
+      "risk_priority": 11,
+      "risk_description": "Detects an AI agent writing or deleting a shell or REPL history file"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "opencode",
+      "tools": "git",
+      "process": "git",
+      "file": "/home/dirk/projects/shop-api/src/validate.ts",
+      "file_events": {
+        "create": 1,
+        "modify": 1,
+        "attrib": 0,
+        "move": 0,
+        "delete": 1,
+        "write": 1
+      },
+      "file_size_change": -120,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 2,
+      "first_seen": "2026-11-02T19:18:27Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "risk_category": "GIT_REWRITE",
+      "risk_severity": "HIGH",
+      "risk_priority": 1,
+      "risk_description": "Detects an AI agent rewriting git history or discarding changes: reset --hard, rebase, force push, branch deletion, clean, checkout or restore over local changes, stash drop, filter-branch, worktree remove --force"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "opencode",
+      "tools": "git",
+      "process": "git",
+      "file": "/home/dirk/projects/shop-api/.git/index",
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 0,
+        "move": 1,
+        "delete": 0,
+        "write": 0
+      },
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 1,
+      "first_seen": "2026-11-02T19:18:27Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "risk_category": "GIT_REWRITE",
+      "risk_severity": "HIGH",
+      "risk_priority": 1,
+      "risk_description": "Detects an AI agent rewriting git history or discarding changes: reset --hard, rebase, force push, branch deletion, clean, checkout or restore over local changes, stash drop, filter-branch, worktree remove --force"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "opencode",
+      "tools": "git",
+      "process": "git",
+      "file": "/home/dirk/projects/shop-api/.git/index.lock",
+      "file_events": {
+        "create": 1,
+        "modify": 2,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 1
+      },
+      "file_size_change": 7142,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 1,
+      "first_seen": "2026-11-02T19:18:27Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "risk_category": "GIT_REWRITE",
+      "risk_severity": "HIGH",
+      "risk_priority": 1,
+      "risk_description": "Detects an AI agent rewriting git history or discarding changes: reset --hard, rebase, force push, branch deletion, clean, checkout or restore over local changes, stash drop, filter-branch, worktree remove --force"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "claude",
+      "tools": "gnurm",
+      "process": "gnurm",
+      "file": "/home/dirk/projects/shop-api/fixtures/legacy-data/orders-2024-01.json",
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 0,
+        "move": 0,
+        "delete": 1,
+        "write": 0
+      },
+      "file_size_change": -27937,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 1,
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T18:46:08Z",
+      "risk_category": "MASS_DELETE",
+      "risk_severity": "HIGH",
+      "risk_priority": 1,
+      "risk_description": "Detects an AI agent deleting files recursively: rm -r, find -delete, shred"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "claude",
+      "tools": "gnurm",
+      "process": "gnurm",
+      "file": "/home/dirk/projects/shop-api/fixtures/legacy-data/orders-2024-03.json",
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 0,
+        "move": 0,
+        "delete": 1,
+        "write": 0
+      },
+      "file_size_change": -27935,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 1,
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T18:46:08Z",
+      "risk_category": "MASS_DELETE",
+      "risk_severity": "HIGH",
+      "risk_priority": 1,
+      "risk_description": "Detects an AI agent deleting files recursively: rm -r, find -delete, shred"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "claude",
+      "tools": "gnurm",
+      "process": "gnurm",
+      "file": "/home/dirk/projects/shop-api/fixtures/legacy-data/orders-2024-02.json",
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 0,
+        "move": 0,
+        "delete": 1,
+        "write": 0
+      },
+      "file_size_change": -27931,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 1,
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T18:46:08Z",
+      "risk_category": "MASS_DELETE",
+      "risk_severity": "HIGH",
+      "risk_priority": 1,
+      "risk_description": "Detects an AI agent deleting files recursively: rm -r, find -delete, shred"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "claude",
+      "tools": "gnurm",
+      "process": "gnurm",
+      "file": "/home/dirk/projects/shop-api/fixtures/legacy-data/orders-2024-04.json",
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 0,
+        "move": 0,
+        "delete": 1,
+        "write": 0
+      },
+      "file_size_change": -27937,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 1,
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T18:46:08Z",
+      "risk_category": "MASS_DELETE",
+      "risk_severity": "HIGH",
+      "risk_priority": 1,
+      "risk_description": "Detects an AI agent deleting files recursively: rm -r, find -delete, shred"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "claude",
+      "tools": "sed",
+      "process": "sed",
+      "file": "/home/dirk/projects/shop-api/CLAUDE.md",
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 0,
+        "move": 1,
+        "delete": 0,
+        "write": 0
+      },
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 1,
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T18:46:08Z",
+      "risk_category": "AGENT_MUTATE",
+      "risk_severity": "HIGH",
+      "risk_priority": 7,
+      "risk_description": "Detects an AI agent changing its own configuration or MCP server definitions"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "opencode",
+      "tools": "git",
+      "process": "git",
+      "file": "/home/dirk/projects/shop-api/.git/packed-refs.lock",
+      "file_events": {
+        "create": 1,
+        "modify": 0,
+        "attrib": 0,
+        "move": 0,
+        "delete": 1,
+        "write": 1
+      },
+      "file_size_change": 0,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 2,
+      "first_seen": "2026-11-02T19:18:27Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "risk_category": "GIT_COMMIT",
+      "risk_severity": "MEDIUM",
+      "risk_priority": 2,
+      "risk_description": "Detects an AI agent committing, merging, tagging, pushing, cherry-picking or reverting with git"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "opencode",
+      "tools": "git",
+      "process": "git",
+      "file": "/home/dirk/projects/shop-api/.git/AUTO_MERGE.lock",
+      "file_events": {
+        "create": 1,
+        "modify": 0,
+        "attrib": 0,
+        "move": 0,
+        "delete": 1,
+        "write": 1
+      },
+      "file_size_change": 0,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 2,
+      "first_seen": "2026-11-02T19:18:27Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "risk_category": "GIT_COMMIT",
+      "risk_severity": "MEDIUM",
+      "risk_priority": 2,
+      "risk_description": "Detects an AI agent committing, merging, tagging, pushing, cherry-picking or reverting with git"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "opencode",
+      "tools": "git",
+      "process": "git",
+      "file": "/home/dirk/projects/shop-api/.git/HEAD.lock",
+      "file_events": {
+        "create": 1,
+        "modify": 0,
+        "attrib": 0,
+        "move": 0,
+        "delete": 1,
+        "write": 1
+      },
+      "file_size_change": 0,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 2,
+      "first_seen": "2026-11-02T19:18:27Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "risk_category": "GIT_COMMIT",
+      "risk_severity": "MEDIUM",
+      "risk_priority": 2,
+      "risk_description": "Detects an AI agent committing, merging, tagging, pushing, cherry-picking or reverting with git"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "opencode",
+      "tools": "git",
+      "process": "git",
+      "file": "/home/dirk/projects/shop-api/.git/objects/10/tmp_obj_ir13tP",
+      "file_events": {
+        "create": 1,
+        "modify": 1,
+        "attrib": 0,
+        "move": 0,
+        "delete": 1,
+        "write": 1
+      },
+      "file_size_change": 0,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 2,
+      "first_seen": "2026-11-02T19:18:27Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "risk_category": "GIT_COMMIT",
+      "risk_severity": "MEDIUM",
+      "risk_priority": 2,
+      "risk_description": "Detects an AI agent committing, merging, tagging, pushing, cherry-picking or reverting with git"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "opencode",
+      "tools": "opencode.exe",
+      "process": "opencode.exe",
+      "file": "/home/dirk/projects/shop-api/Dockerfile",
+      "file_events": {
+        "create": 1,
+        "modify": 2,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 1
+      },
+      "file_size_change": 92,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 1,
+      "first_seen": "2026-11-02T19:18:27Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "risk_category": "CONTAINER_MOD",
+      "risk_severity": "MEDIUM",
+      "risk_priority": 3,
+      "risk_description": "Detects an AI agent changing container or orchestration definitions: Dockerfile, docker-compose, devcontainer.json"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "copilot",
+      "tools": "",
+      "process": "copilot",
+      "file": "/home/dirk/projects/shop-api/eslint.config.js",
+      "file_events": {
+        "create": 0,
+        "modify": 2,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 1
+      },
+      "file_size_change": 1,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 1,
+      "first_seen": "2026-11-02T18:56:51Z",
+      "last_seen": "2026-11-02T18:56:51Z",
+      "risk_category": "GUARDRAIL_EDIT",
+      "risk_severity": "MEDIUM",
+      "risk_priority": 3,
+      "risk_description": "Detects an AI agent changing the configuration of a check: linter, type checker, test runner, coverage, pre-commit or secret scanner"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "codex",
+      "tools": "node:npm",
+      "process": "node:npm",
+      "file": "/home/dirk/projects/shop-api/node_modules/zod/src/v4/core/memoizer.ts",
+      "file_events": {
+        "create": 2,
+        "modify": 3,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 2
+      },
+      "file_size_change": 12922,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 2,
+      "first_seen": "2026-11-02T19:07:40Z",
+      "last_seen": "2026-11-02T19:07:40Z",
+      "risk_category": "PACKAGE_MOD",
+      "risk_severity": "MEDIUM",
+      "risk_priority": 4,
+      "risk_description": "Detects an AI agent installing, updating or removing packages, including creating a virtualenv: npm, pnpm, yarn, bun, pip, uv, poetry, pdm, pipx, gem, bundle, cargo, go, composer"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "codex",
+      "tools": "node:npm",
+      "process": "node:npm",
+      "file": "/home/dirk/projects/shop-api/node_modules/zod/src/v4/classic/tests/base.test.ts",
+      "file_events": {
+        "create": 2,
+        "modify": 2,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 1
+      },
+      "file_size_change": 179,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 2,
+      "first_seen": "2026-11-02T19:07:40Z",
+      "last_seen": "2026-11-02T19:07:40Z",
+      "risk_category": "PACKAGE_MOD",
+      "risk_severity": "MEDIUM",
+      "risk_priority": 4,
+      "risk_description": "Detects an AI agent installing, updating or removing packages, including creating a virtualenv: npm, pnpm, yarn, bun, pip, uv, poetry, pdm, pipx, gem, bundle, cargo, go, composer"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "codex",
+      "tools": "node:npm",
+      "process": "node:npm",
+      "file": "/home/dirk/projects/shop-api/node_modules/zod/v4/locales/id.d.cts",
+      "file_events": {
+        "create": 2,
+        "modify": 2,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 1
+      },
+      "file_size_change": 142,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 2,
+      "first_seen": "2026-11-02T19:07:40Z",
+      "last_seen": "2026-11-02T19:07:40Z",
+      "risk_category": "PACKAGE_MOD",
+      "risk_severity": "MEDIUM",
+      "risk_priority": 4,
+      "risk_description": "Detects an AI agent installing, updating or removing packages, including creating a virtualenv: npm, pnpm, yarn, bun, pip, uv, poetry, pdm, pipx, gem, bundle, cargo, go, composer"
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "codex",
+      "tools": "node:npm",
+      "process": "node:npm",
+      "file": "/home/dirk/projects/shop-api/node_modules/zod/v4/locales/eo.cjs",
+      "file_events": {
+        "create": 2,
+        "modify": 3,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 2
+      },
+      "file_size_change": 6665,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 2,
+      "first_seen": "2026-11-02T19:07:40Z",
+      "last_seen": "2026-11-02T19:07:40Z",
+      "risk_category": "PACKAGE_MOD",
+      "risk_severity": "MEDIUM",
+      "risk_priority": 4,
+      "risk_description": "Detects an AI agent installing, updating or removing packages, including creating a virtualenv: npm, pnpm, yarn, bun, pip, uv, poetry, pdm, pipx, gem, bundle, cargo, go, composer"
+    }
+  ],
+  "top_file_changes_risk_more": 1020,
+  "top_file_changes_routine": [
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "copilot",
+      "tools": "",
+      "process": "copilot",
+      "file": "/home/dirk/.config/Code/User/workspaceStorage/d0beb8786e48d63a05f8bbf40aa64b6c/state.vscdb-journal",
+      "file_events": {
+        "create": 22,
+        "modify": 224,
+        "attrib": 0,
+        "move": 0,
+        "delete": 22,
+        "write": 22
+      },
+      "file_size_change": 0,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 44,
+      "first_seen": "2026-11-02T18:56:34Z",
+      "last_seen": "2026-11-02T19:07:37Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "copilot",
+      "tools": "",
+      "process": "copilot",
+      "file": "/home/dirk/.config/Code/User/globalStorage/state.vscdb-journal",
+      "file_events": {
+        "create": 20,
+        "modify": 205,
+        "attrib": 0,
+        "move": 0,
+        "delete": 20,
+        "write": 20
+      },
+      "file_size_change": 0,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 40,
+      "first_seen": "2026-11-02T18:56:34Z",
+      "last_seen": "2026-11-02T19:07:41Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "copilot",
+      "tools": "",
+      "process": "copilot",
+      "file": "/home/dirk/.config/Code/User/globalStorage/agent-host-config.json",
+      "file_events": {
+        "create": 0,
+        "modify": 44,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 22
+      },
+      "file_size_change": 0,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 22,
+      "first_seen": "2026-11-02T18:56:35Z",
+      "last_seen": "2026-11-02T19:07:20Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "opencode",
+      "tools": "git",
+      "process": "git",
+      "file": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/config",
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 2,
+        "move": 13,
+        "delete": 0,
+        "write": 0
+      },
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 15,
+      "first_seen": "2026-11-02T19:18:27Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "opencode",
+      "tools": "opencode.exe",
+      "process": "opencode.exe",
+      "file": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/info/exclude",
+      "file_events": {
+        "create": 0,
+        "modify": 30,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 15
+      },
+      "file_size_change": 0,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 15,
+      "first_seen": "2026-11-02T19:18:27Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "opencode",
+      "tools": "git",
+      "process": "git",
+      "file": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/config.lock",
+      "file_events": {
+        "create": 13,
+        "modify": 29,
+        "attrib": 12,
+        "move": 0,
+        "delete": 0,
+        "write": 13
+      },
+      "file_size_change": 2142,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 13,
+      "first_seen": "2026-11-02T19:18:27Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "opencode",
+      "tools": "git",
+      "process": "git",
+      "file": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/index",
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 0,
+        "move": 11,
+        "delete": 0,
+        "write": 0
+      },
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 11,
+      "first_seen": "2026-11-02T19:18:27Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "opencode",
+      "tools": "git",
+      "process": "git",
+      "file": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/index.lock",
+      "file_events": {
+        "create": 11,
+        "modify": 22,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 11
+      },
+      "file_size_change": 13085,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 11,
+      "first_seen": "2026-11-02T19:18:27Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "copilot",
+      "tools": "",
+      "process": "copilot",
+      "file": "/home/dirk/.config/Code/CachedData/e646868227c3e3a9e3f24277c8c7220be42c0be7/chrome/js/23bac8f657399c16_0",
+      "file_events": {
+        "create": 0,
+        "modify": 16,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 8
+      },
+      "file_size_change": 0,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 8,
+      "first_seen": "2026-11-02T18:56:40Z",
+      "last_seen": "2026-11-02T19:07:25Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "copilot",
+      "tools": "",
+      "process": "copilot",
+      "file": "/home/dirk/.config/Code/CachedData/e646868227c3e3a9e3f24277c8c7220be42c0be7/chrome/js/b339f65bb7bd3826_0",
+      "file_events": {
+        "create": 0,
+        "modify": 16,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 8
+      },
+      "file_size_change": 0,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 8,
+      "first_seen": "2026-11-02T18:56:40Z",
+      "last_seen": "2026-11-02T19:07:25Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "claude",
+      "tools": "git",
+      "process": "git",
+      "file": "/tmp/claude-502/bash-edit-diff/13258363883662648143-15741131617002607803-9505b4a2a3f5eb8a/index",
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 0,
+        "move": 8,
+        "delete": 0,
+        "write": 0
+      },
+      "fs": "tmpfs",
+      "device_name": "tmpfs",
+      "device_mount_point": "/tmp",
+      "count": 8,
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T18:46:08Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "claude",
+      "tools": "git",
+      "process": "git",
+      "file": "/tmp/claude-502/bash-edit-diff/13258363883662648143-15741131617002607803-9505b4a2a3f5eb8a/index.lock",
+      "file_events": {
+        "create": 8,
+        "modify": 16,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 8
+      },
+      "file_size_change": 41872,
+      "fs": "tmpfs",
+      "device_name": "tmpfs",
+      "device_mount_point": "/tmp",
+      "count": 8,
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T18:46:08Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "claude",
+      "tools": "git",
+      "process": "git",
+      "file": "/tmp/claude-502/bash-edit-diff/3417475139305482184-15741131617002607803-bdc99e238a45acd7/index",
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 0,
+        "move": 7,
+        "delete": 0,
+        "write": 0
+      },
+      "fs": "tmpfs",
+      "device_name": "tmpfs",
+      "device_mount_point": "/tmp",
+      "count": 7,
+      "first_seen": "2026-11-02T19:29:17Z",
+      "last_seen": "2026-11-02T19:29:17Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "claude",
+      "tools": "git",
+      "process": "git",
+      "file": "/tmp/claude-502/bash-edit-diff/3417475139305482184-15741131617002607803-bdc99e238a45acd7/index.lock",
+      "file_events": {
+        "create": 7,
+        "modify": 14,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 7
+      },
+      "file_size_change": 29004,
+      "fs": "tmpfs",
+      "device_name": "tmpfs",
+      "device_mount_point": "/tmp",
+      "count": 7,
+      "first_seen": "2026-11-02T19:29:17Z",
+      "last_seen": "2026-11-02T19:29:17Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "claude",
+      "tools": "",
+      "process": "claude",
+      "file": "/home/dirk/.claude/sessions/39239.json",
+      "file_events": {
+        "create": 2,
+        "modify": 8,
+        "attrib": 0,
+        "move": 0,
+        "delete": 2,
+        "write": 4
+      },
+      "file_size_change": 0,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 6,
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T18:46:08Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "claude",
+      "tools": "",
+      "process": "claude",
+      "file": "/home/dirk/.claude/sessions/41576.json",
+      "file_events": {
+        "create": 2,
+        "modify": 8,
+        "attrib": 0,
+        "move": 0,
+        "delete": 2,
+        "write": 4
+      },
+      "file_size_change": 0,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 6,
+      "first_seen": "2026-11-02T19:29:17Z",
+      "last_seen": "2026-11-02T19:29:17Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "copilot",
+      "tools": "",
+      "process": "copilot",
+      "file": "/home/dirk/.vscode-shared/sharedStorage/state.vscdb-journal",
+      "file_events": {
+        "create": 3,
+        "modify": 18,
+        "attrib": 0,
+        "move": 0,
+        "delete": 3,
+        "write": 3
+      },
+      "file_size_change": 0,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 6,
+      "first_seen": "2026-11-02T18:56:34Z",
+      "last_seen": "2026-11-02T19:07:18Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "claude",
+      "tools": "",
+      "process": "claude",
+      "file": "/home/dirk/.claude/projects/-home-dirk-projects-shop-api/ad8d174b-395f-42b3-a862-c63e1301ff29.jsonl",
+      "file_events": {
+        "create": 1,
+        "modify": 5,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 5
+      },
+      "file_size_change": 151567,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 5,
+      "first_seen": "2026-11-02T19:29:17Z",
+      "last_seen": "2026-11-02T19:29:17Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "claude",
+      "tools": "",
+      "process": "claude",
+      "file": "/home/dirk/.claude/projects/-home-dirk-projects-shop-api/b4313700-b650-4a8f-a64e-2f574e01a411.jsonl",
+      "file_events": {
+        "create": 1,
+        "modify": 5,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 5
+      },
+      "file_size_change": 153577,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 5,
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T18:46:08Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    },
+    {
+      "host": "dev1",
+      "user": "dirk",
+      "agent": "claude",
+      "tools": "",
+      "process": "claude",
+      "file": "/home/dirk/.local/state/claude/locks/2.1.309.lock",
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 0,
+        "move": 2,
+        "delete": 2,
+        "write": 0
+      },
+      "file_size_change": -276,
+      "fs": "ext4",
+      "device_name": "/dev/vda1",
+      "device_mount_point": "/",
+      "count": 4,
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T19:29:17Z",
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": ""
+    }
+  ],
+  "grouped_file_changes_risk": [
+    {
+      "risk_severity": "CRITICAL",
+      "risk_category": "CRED_WRITE",
+      "risk_priority": 1,
+      "risk_description": "Detects an AI agent writing to SSH keys or config",
+      "agent": "codex",
+      "tools": "bash",
+      "process": "bash",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 0,
+        "modify": 1,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 1
+      },
+      "files": 1,
+      "count": 1,
+      "common_path": "/home/dirk/.ssh/",
+      "file_pattern": "authorized_keys",
+      "first_seen": "2026-11-02T19:07:40Z",
+      "last_seen": "2026-11-02T19:07:40Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/.ssh/authorized_keys",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 95
+        }
+      ],
+      "slots": [
+        36
+      ]
+    },
+    {
+      "risk_severity": "CRITICAL",
+      "risk_category": "LOG_TAMPERING",
+      "risk_priority": 11,
+      "risk_description": "Detects an AI agent writing or deleting a shell or REPL history file",
+      "agent": "claude",
+      "tools": "sed",
+      "process": "sed",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 0,
+        "move": 1,
+        "delete": 0,
+        "write": 0
+      },
+      "files": 1,
+      "count": 1,
+      "common_path": "/home/dirk/",
+      "file_pattern": ".bash_history",
+      "first_seen": "2026-11-02T19:29:17Z",
+      "last_seen": "2026-11-02T19:29:17Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/.bash_history",
+          "count": 1,
+          "first_seen": "2026-11-02T19:29:17Z",
+          "last_seen": "2026-11-02T19:29:17Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 1,
+            "delete": 0,
+            "write": 0
+          },
+          "slots": [
+            58
+          ]
+        }
+      ],
+      "slots": [
+        58
+      ]
+    },
+    {
+      "risk_severity": "HIGH",
+      "risk_category": "GIT_REWRITE",
+      "risk_priority": 1,
+      "risk_description": "Detects an AI agent rewriting git history or discarding changes: reset --hard, rebase, force push, branch deletion, clean, checkout or restore over local changes, stash drop, filter-branch, worktree remove --force",
+      "agent": "opencode",
+      "tools": "git",
+      "process": "git",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 2,
+        "modify": 3,
+        "attrib": 0,
+        "move": 1,
+        "delete": 1,
+        "write": 2
+      },
+      "files": 3,
+      "count": 4,
+      "common_path": "/home/dirk/projects/shop-api/",
+      "file_pattern": "*{.ts,.lock,}",
+      "first_seen": "2026-11-02T19:18:27Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/projects/shop-api/src/validate.ts",
+          "count": 2,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "slots": [
+            47
+          ],
+          "file_size_change": -120
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/.git/index",
+          "count": 1,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 1,
+            "delete": 0,
+            "write": 0
+          },
+          "slots": [
+            47
+          ]
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/.git/index.lock",
+          "count": 1,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 1,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            47
+          ],
+          "file_size_change": 7142
+        }
+      ],
+      "slots": [
+        47
+      ]
+    },
+    {
+      "risk_severity": "HIGH",
+      "risk_category": "MASS_DELETE",
+      "risk_priority": 1,
+      "risk_description": "Detects an AI agent deleting files recursively: rm -r, find -delete, shred",
+      "agent": "claude",
+      "tools": "gnurm",
+      "process": "gnurm",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 0,
+        "move": 0,
+        "delete": 60,
+        "write": 0
+      },
+      "files": 60,
+      "count": 60,
+      "common_path": "/home/dirk/projects/shop-api/fixtures/legacy-data/",
+      "file_pattern": "orders-2024*.json",
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T18:46:08Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/projects/shop-api/fixtures/legacy-data/orders-2024-01.json",
+          "count": 1,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 0
+          },
+          "slots": [
+            15
+          ],
+          "file_size_change": -27937
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/fixtures/legacy-data/orders-2024-02.json",
+          "count": 1,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 0
+          },
+          "slots": [
+            15
+          ],
+          "file_size_change": -27931
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/fixtures/legacy-data/orders-2024-03.json",
+          "count": 1,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 0
+          },
+          "slots": [
+            15
+          ],
+          "file_size_change": -27935
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/fixtures/legacy-data/orders-2024-04.json",
+          "count": 1,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 0
+          },
+          "slots": [
+            15
+          ],
+          "file_size_change": -27937
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/fixtures/legacy-data/orders-2024-05.json",
+          "count": 1,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 0
+          },
+          "slots": [
+            15
+          ],
+          "file_size_change": -27927
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/fixtures/legacy-data/orders-2024-06.json",
+          "count": 1,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 0
+          },
+          "slots": [
+            15
+          ],
+          "file_size_change": -27943
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/fixtures/legacy-data/orders-2024-07.json",
+          "count": 1,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 0
+          },
+          "slots": [
+            15
+          ],
+          "file_size_change": -27928
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/fixtures/legacy-data/orders-2024-08.json",
+          "count": 1,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 0
+          },
+          "slots": [
+            15
+          ],
+          "file_size_change": -27944
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/fixtures/legacy-data/orders-2024-09.json",
+          "count": 1,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 0
+          },
+          "slots": [
+            15
+          ],
+          "file_size_change": -27936
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/fixtures/legacy-data/orders-2024-10.json",
+          "count": 1,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 0
+          },
+          "slots": [
+            15
+          ],
+          "file_size_change": -27938
+        }
+      ],
+      "slots": [
+        15
+      ]
+    },
+    {
+      "risk_severity": "HIGH",
+      "risk_category": "AGENT_MUTATE",
+      "risk_priority": 7,
+      "risk_description": "Detects an AI agent changing its own configuration or MCP server definitions",
+      "agent": "claude",
+      "tools": "sed",
+      "process": "sed",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 0,
+        "move": 1,
+        "delete": 0,
+        "write": 0
+      },
+      "files": 1,
+      "count": 1,
+      "common_path": "/home/dirk/projects/shop-api/",
+      "file_pattern": "CLAUDE.md",
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T18:46:08Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/projects/shop-api/CLAUDE.md",
+          "count": 1,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 1,
+            "delete": 0,
+            "write": 0
+          },
+          "slots": [
+            15
+          ]
+        }
+      ],
+      "slots": [
+        15
+      ]
+    },
+    {
+      "risk_severity": "MEDIUM",
+      "risk_category": "GIT_COMMIT",
+      "risk_priority": 2,
+      "risk_description": "Detects an AI agent committing, merging, tagging, pushing, cherry-picking or reverting with git",
+      "agent": "opencode",
+      "tools": "git",
+      "process": "git",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 9,
+        "modify": 10,
+        "attrib": 0,
+        "move": 2,
+        "delete": 5,
+        "write": 10
+      },
+      "files": 14,
+      "count": 19,
+      "common_path": "/home/dirk/projects/shop-api/.git/",
+      "file_pattern": "*{.lock,}",
+      "first_seen": "2026-11-02T19:18:27Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/projects/shop-api/.git/AUTO_MERGE.lock",
+          "count": 2,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 1,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "slots": [
+            47
+          ],
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/.git/HEAD.lock",
+          "count": 2,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 1,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "slots": [
+            47
+          ],
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/.git/objects/10/tmp_obj_ir13tP",
+          "count": 2,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "slots": [
+            47
+          ],
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/.git/objects/bc/tmp_obj_LHZQx6",
+          "count": 2,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "slots": [
+            47
+          ],
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/.git/packed-refs.lock",
+          "count": 2,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 1,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "slots": [
+            47
+          ],
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/.git/COMMIT_EDITMSG",
+          "count": 1,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 0,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            47
+          ],
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/.git/index",
+          "count": 1,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 1,
+            "delete": 0,
+            "write": 0
+          },
+          "slots": [
+            47
+          ]
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/.git/index.lock",
+          "count": 1,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 1,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            47
+          ],
+          "file_size_change": 7222
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/.git/logs/HEAD",
+          "count": 1,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 0,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            47
+          ],
+          "file_size_change": 139
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/.git/logs/refs/heads/main",
+          "count": 1,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 0,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            47
+          ],
+          "file_size_change": 139
+        }
+      ],
+      "slots": [
+        47
+      ]
+    },
+    {
+      "risk_severity": "MEDIUM",
+      "risk_category": "CONTAINER_MOD",
+      "risk_priority": 3,
+      "risk_description": "Detects an AI agent changing container or orchestration definitions: Dockerfile, docker-compose, devcontainer.json",
+      "agent": "opencode",
+      "tools": "opencode.exe",
+      "process": "opencode.exe",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 1,
+        "modify": 2,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 1
+      },
+      "files": 1,
+      "count": 1,
+      "common_path": "/home/dirk/projects/shop-api/",
+      "file_pattern": "Dockerfile",
+      "first_seen": "2026-11-02T19:18:27Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/projects/shop-api/Dockerfile",
+          "count": 1,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 1,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            47
+          ],
+          "file_size_change": 92
+        }
+      ],
+      "slots": [
+        47
+      ]
+    },
+    {
+      "risk_severity": "MEDIUM",
+      "risk_category": "GUARDRAIL_EDIT",
+      "risk_priority": 3,
+      "risk_description": "Detects an AI agent changing the configuration of a check: linter, type checker, test runner, coverage, pre-commit or secret scanner",
+      "agent": "copilot",
+      "tools": "",
+      "process": "copilot",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 0,
+        "modify": 2,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 1
+      },
+      "files": 1,
+      "count": 1,
+      "common_path": "/home/dirk/projects/shop-api/",
+      "file_pattern": "eslint.config.js",
+      "first_seen": "2026-11-02T18:56:51Z",
+      "last_seen": "2026-11-02T18:56:51Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/projects/shop-api/eslint.config.js",
+          "count": 1,
+          "first_seen": "2026-11-02T18:56:51Z",
+          "last_seen": "2026-11-02T18:56:51Z",
+          "file_events": {
+            "create": 0,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            25
+          ],
+          "file_size_change": 1
+        }
+      ],
+      "slots": [
+        25
+      ]
+    },
+    {
+      "risk_severity": "MEDIUM",
+      "risk_category": "PACKAGE_MOD",
+      "risk_priority": 4,
+      "risk_description": "Detects an AI agent installing, updating or removing packages, including creating a virtualenv: npm, pnpm, yarn, bun, pip, uv, poetry, pdm, pipx, gem, bundle, cargo, go, composer",
+      "agent": "codex",
+      "tools": "node:npm",
+      "process": "node:npm",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 842,
+        "modify": 1207,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 841
+      },
+      "files": 838,
+      "count": 843,
+      "common_path": "/home/dirk/projects/shop-api/",
+      "file_pattern": "*{.ts,.cjs,.cts,.js,.json,.*,}",
+      "first_seen": "2026-11-02T19:07:40Z",
+      "last_seen": "2026-11-02T19:07:40Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/projects/shop-api/node_modules/zod/src/v4/classic/tests/base.test.ts",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 2,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 179
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/node_modules/zod/src/v4/core/memoizer.ts",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 2,
+            "modify": 3,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 2
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 12922
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/node_modules/zod/v4/locales/eo.cjs",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 2,
+            "modify": 3,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 2
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 6665
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/node_modules/zod/v4/locales/id.d.cts",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 2,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 142
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/node_modules/zod/v4/locales/lt.d.cts",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 2,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 2
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 284
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/node_modules/.package-lock.json",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 439
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/node_modules/zod/LICENSE",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 1072
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/node_modules/zod/README.md",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 7304
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/node_modules/zod/compile.cjs",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 4780
+        },
+        {
+          "name": "/home/dirk/projects/shop-api/node_modules/zod/compile.d.cts",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 11
+        }
+      ],
+      "slots": [
+        36
+      ]
+    },
+    {
+      "risk_severity": "LOW",
+      "risk_category": "SOURCE_EDIT",
+      "risk_priority": 1,
+      "risk_description": "Detects an AI agent editing source code",
+      "agent": "claude",
+      "tools": "",
+      "process": "claude",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 0,
+        "move": 1,
+        "delete": 0,
+        "write": 0
+      },
+      "files": 1,
+      "count": 1,
+      "common_path": "/home/dirk/projects/shop-api/test/",
+      "file_pattern": "orders.test.ts",
+      "first_seen": "2026-11-02T19:29:17Z",
+      "last_seen": "2026-11-02T19:29:17Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/projects/shop-api/test/orders.test.ts",
+          "count": 1,
+          "first_seen": "2026-11-02T19:29:17Z",
+          "last_seen": "2026-11-02T19:29:17Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 1,
+            "delete": 0,
+            "write": 0
+          },
+          "slots": [
+            58
+          ]
+        }
+      ],
+      "slots": [
+        58
+      ]
+    },
+    {
+      "risk_severity": "LOW",
+      "risk_category": "SOURCE_EDIT",
+      "risk_priority": 1,
+      "risk_description": "Detects an AI agent editing source code",
+      "agent": "codex",
+      "tools": "",
+      "process": "codex",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 0,
+        "modify": 2,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 1
+      },
+      "files": 1,
+      "count": 1,
+      "common_path": "/home/dirk/projects/shop-api/src/",
+      "file_pattern": "validate.ts",
+      "first_seen": "2026-11-02T19:07:40Z",
+      "last_seen": "2026-11-02T19:07:40Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/projects/shop-api/src/validate.ts",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 120
+        }
+      ],
+      "slots": [
+        36
+      ]
+    },
+    {
+      "risk_severity": "LOW",
+      "risk_category": "SOURCE_EDIT",
+      "risk_priority": 1,
+      "risk_description": "Detects an AI agent editing source code",
+      "agent": "copilot",
+      "tools": "",
+      "process": "copilot",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 0,
+        "modify": 2,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 1
+      },
+      "files": 1,
+      "count": 1,
+      "common_path": "/home/dirk/projects/shop-api/src/routes/",
+      "file_pattern": "orders.ts",
+      "first_seen": "2026-11-02T18:56:52Z",
+      "last_seen": "2026-11-02T18:56:52Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/projects/shop-api/src/routes/orders.ts",
+          "count": 1,
+          "first_seen": "2026-11-02T18:56:52Z",
+          "last_seen": "2026-11-02T18:56:52Z",
+          "file_events": {
+            "create": 0,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            25
+          ],
+          "file_size_change": 16
+        }
+      ],
+      "slots": [
+        25
+      ]
+    },
+    {
+      "risk_severity": "LOW",
+      "risk_category": "DOC_EDIT",
+      "risk_priority": 3,
+      "risk_description": "Detects an AI agent editing documentation",
+      "agent": "copilot",
+      "tools": "",
+      "process": "copilot",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 0,
+        "modify": 2,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 1
+      },
+      "files": 1,
+      "count": 1,
+      "common_path": "/home/dirk/projects/shop-api/",
+      "file_pattern": "README.md",
+      "first_seen": "2026-11-02T18:56:52Z",
+      "last_seen": "2026-11-02T18:56:52Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/projects/shop-api/README.md",
+          "count": 1,
+          "first_seen": "2026-11-02T18:56:52Z",
+          "last_seen": "2026-11-02T18:56:52Z",
+          "file_events": {
+            "create": 0,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            25
+          ],
+          "file_size_change": 36
+        }
+      ],
+      "slots": [
+        25
+      ]
+    },
+    {
+      "risk_severity": "LOW",
+      "risk_category": "SESSION_CACHE",
+      "risk_priority": 7,
+      "risk_description": "Detects an AI agent writing its own session, scratch or cache state",
+      "agent": "claude",
+      "tools": "bash",
+      "process": "bash",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 2,
+        "modify": 46,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 46
+      },
+      "files": 2,
+      "count": 46,
+      "common_path": "/home/dirk/.claude/shell-snapshots/",
+      "file_pattern": "snapshot-bash-179364*.sh",
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T19:29:17Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/.claude/shell-snapshots/snapshot-bash-1793645168242-u09sq6.sh",
+          "count": 23,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 1,
+            "modify": 23,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 23
+          },
+          "slots": [
+            15
+          ],
+          "file_size_change": 3302
+        },
+        {
+          "name": "/home/dirk/.claude/shell-snapshots/snapshot-bash-1793647757627-oueyq2.sh",
+          "count": 23,
+          "first_seen": "2026-11-02T19:29:17Z",
+          "last_seen": "2026-11-02T19:29:17Z",
+          "file_events": {
+            "create": 1,
+            "modify": 23,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 23
+          },
+          "slots": [
+            58
+          ],
+          "file_size_change": 3302
+        }
+      ],
+      "slots": [
+        15,
+        58
+      ]
+    },
+    {
+      "risk_severity": "LOW",
+      "risk_category": "SESSION_CACHE",
+      "risk_priority": 7,
+      "risk_description": "Detects an AI agent writing its own session, scratch or cache state",
+      "agent": "claude",
+      "tools": "cat",
+      "process": "cat",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 0,
+        "modify": 8,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 8
+      },
+      "files": 2,
+      "count": 8,
+      "common_path": "/home/dirk/.claude/shell-snapshots/",
+      "file_pattern": "snapshot-bash-179364*.sh",
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T19:29:17Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/.claude/shell-snapshots/snapshot-bash-1793645168242-u09sq6.sh",
+          "count": 4,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 0,
+            "modify": 4,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 4
+          },
+          "slots": [
+            15
+          ],
+          "file_size_change": 3330
+        },
+        {
+          "name": "/home/dirk/.claude/shell-snapshots/snapshot-bash-1793647757627-oueyq2.sh",
+          "count": 4,
+          "first_seen": "2026-11-02T19:29:17Z",
+          "last_seen": "2026-11-02T19:29:17Z",
+          "file_events": {
+            "create": 0,
+            "modify": 4,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 4
+          },
+          "slots": [
+            58
+          ],
+          "file_size_change": 3330
+        }
+      ],
+      "slots": [
+        15,
+        58
+      ]
+    },
+    {
+      "risk_severity": "LOW",
+      "risk_category": "SESSION_CACHE",
+      "risk_priority": 7,
+      "risk_description": "Detects an AI agent writing its own session, scratch or cache state",
+      "agent": "claude",
+      "tools": "head",
+      "process": "head",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 0,
+        "modify": 4,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 6
+      },
+      "files": 2,
+      "count": 6,
+      "common_path": "/home/dirk/.claude/shell-snapshots/",
+      "file_pattern": "snapshot-bash-179364*.sh",
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T19:29:17Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/.claude/shell-snapshots/snapshot-bash-1793645168242-u09sq6.sh",
+          "count": 3,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 0,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 3
+          },
+          "slots": [
+            15
+          ],
+          "file_size_change": 1338
+        },
+        {
+          "name": "/home/dirk/.claude/shell-snapshots/snapshot-bash-1793647757627-oueyq2.sh",
+          "count": 3,
+          "first_seen": "2026-11-02T19:29:17Z",
+          "last_seen": "2026-11-02T19:29:17Z",
+          "file_events": {
+            "create": 0,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 3
+          },
+          "slots": [
+            58
+          ],
+          "file_size_change": 1338
+        }
+      ],
+      "slots": [
+        15,
+        58
+      ]
+    },
+    {
+      "risk_severity": "LOW",
+      "risk_category": "SESSION_CACHE",
+      "risk_priority": 7,
+      "risk_description": "Detects an AI agent writing its own session, scratch or cache state",
+      "agent": "codex",
+      "tools": "git",
+      "process": "git",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 23,
+        "modify": 25,
+        "attrib": 5,
+        "move": 4,
+        "delete": 2,
+        "write": 22
+      },
+      "files": 20,
+      "count": 31,
+      "common_path": "/home/dirk/.codex/.tmp/plugins-clone-AHtLIY/.git/",
+      "file_pattern": "*{.sample,.lock,}",
+      "first_seen": "2026-11-02T19:07:40Z",
+      "last_seen": "2026-11-02T19:07:41Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/.codex/.tmp/plugins-clone-AHtLIY/.git/config",
+          "count": 6,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 2,
+            "move": 4,
+            "delete": 0,
+            "write": 0
+          },
+          "slots": [
+            36
+          ]
+        },
+        {
+          "name": "/home/dirk/.codex/.tmp/plugins-clone-AHtLIY/.git/config.lock",
+          "count": 4,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 4,
+            "modify": 8,
+            "attrib": 3,
+            "move": 0,
+            "delete": 0,
+            "write": 4
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 248
+        },
+        {
+          "name": "/home/dirk/.codex/.tmp/plugins-clone-AHtLIY/.git/tzj8yUM",
+          "count": 4,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 2,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 2,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": -7
+        },
+        {
+          "name": "/home/dirk/.codex/.tmp/plugins-clone-AHtLIY/.git/description",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 73
+        },
+        {
+          "name": "/home/dirk/.codex/.tmp/plugins-clone-AHtLIY/.git/hooks/applypatch-msg.sample",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 478
+        },
+        {
+          "name": "/home/dirk/.codex/.tmp/plugins-clone-AHtLIY/.git/hooks/commit-msg.sample",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 896
+        },
+        {
+          "name": "/home/dirk/.codex/.tmp/plugins-clone-AHtLIY/.git/hooks/fsmonitor-watchman.sample",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 4726
+        },
+        {
+          "name": "/home/dirk/.codex/.tmp/plugins-clone-AHtLIY/.git/hooks/post-update.sample",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 189
+        },
+        {
+          "name": "/home/dirk/.codex/.tmp/plugins-clone-AHtLIY/.git/hooks/pre-applypatch.sample",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 424
+        },
+        {
+          "name": "/home/dirk/.codex/.tmp/plugins-clone-AHtLIY/.git/hooks/pre-commit.sample",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 1649
+        }
+      ],
+      "slots": [
+        36
+      ]
+    },
+    {
+      "risk_severity": "LOW",
+      "risk_category": "TEMP_WRITE",
+      "risk_priority": 7,
+      "risk_description": "Detects an AI agent writing to a scratch directory",
+      "agent": "copilot",
+      "tools": "",
+      "process": "copilot",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "tmpfs",
+          "mount_point": "/tmp",
+          "fs": "tmpfs"
+        }
+      ],
+      "file_events": {
+        "create": 10,
+        "modify": 18,
+        "attrib": 0,
+        "move": 0,
+        "delete": 8,
+        "write": 14
+      },
+      "files": 9,
+      "count": 22,
+      "common_path": "/tmp/",
+      "file_pattern": "*.{out,1X61X3,2KbUji,81WZX3,8TP5X3,*}",
+      "first_seen": "2026-11-02T18:56:34Z",
+      "last_seen": "2026-11-02T19:07:41Z",
+      "top_files": [
+        {
+          "name": "/tmp/kmx/driver.out",
+          "count": 6,
+          "first_seen": "2026-11-02T18:56:51Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 2,
+            "modify": 10,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 6
+          },
+          "slots": [
+            25,
+            36
+          ],
+          "file_size_change": 164
+        },
+        {
+          "name": "/tmp/.org.chromium.Chromium.2KbUji",
+          "count": 2,
+          "first_seen": "2026-11-02T18:56:34Z",
+          "last_seen": "2026-11-02T18:56:34Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "slots": [
+            25
+          ],
+          "file_size_change": 0
+        },
+        {
+          "name": "/tmp/.org.chromium.Chromium.PK93MU",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:18Z",
+          "last_seen": "2026-11-02T19:07:18Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 0
+        },
+        {
+          "name": "/tmp/gdk-pixbuf-glycin-tmp.1X61X3",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:41Z",
+          "last_seen": "2026-11-02T19:07:41Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 0
+        },
+        {
+          "name": "/tmp/gdk-pixbuf-glycin-tmp.81WZX3",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:41Z",
+          "last_seen": "2026-11-02T19:07:41Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 0
+        },
+        {
+          "name": "/tmp/gdk-pixbuf-glycin-tmp.8TP5X3",
+          "count": 2,
+          "first_seen": "2026-11-02T18:56:55Z",
+          "last_seen": "2026-11-02T18:56:55Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "slots": [
+            25
+          ],
+          "file_size_change": 0
+        },
+        {
+          "name": "/tmp/gdk-pixbuf-glycin-tmp.DHQ5X3",
+          "count": 2,
+          "first_seen": "2026-11-02T18:56:55Z",
+          "last_seen": "2026-11-02T18:56:55Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "slots": [
+            25
+          ],
+          "file_size_change": 0
+        },
+        {
+          "name": "/tmp/gdk-pixbuf-glycin-tmp.JY51X3",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:41Z",
+          "last_seen": "2026-11-02T19:07:41Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 0
+        },
+        {
+          "name": "/tmp/gdk-pixbuf-glycin-tmp.QW95X3",
+          "count": 2,
+          "first_seen": "2026-11-02T18:56:55Z",
+          "last_seen": "2026-11-02T18:56:55Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "slots": [
+            25
+          ],
+          "file_size_change": 0
+        }
+      ],
+      "slots": [
+        25,
+        36
+      ]
+    },
+    {
+      "risk_severity": "LOW",
+      "risk_category": "SESSION_CACHE",
+      "risk_priority": 7,
+      "risk_description": "Detects an AI agent writing its own session, scratch or cache state",
+      "agent": "codex",
+      "tools": "plugins-curated",
+      "process": "plugins-curated",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 1
+      },
+      "files": 1,
+      "count": 1,
+      "common_path": "/home/dirk/.codex/.tmp/",
+      "file_pattern": "plugins.sync.lock",
+      "first_seen": "2026-11-02T19:07:40Z",
+      "last_seen": "2026-11-02T19:07:40Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/.codex/.tmp/plugins.sync.lock",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "slots": [
+            36
+          ],
+          "file_size_change": 0
+        }
+      ],
+      "slots": [
+        36
+      ]
+    }
+  ],
+  "grouped_file_changes_routine": [
+    {
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": "",
+      "agent": "copilot",
+      "tools": "",
+      "process": "copilot",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        },
+        {
+          "name": "tmpfs",
+          "mount_point": "/dev/shm",
+          "fs": "tmpfs"
+        },
+        {
+          "name": "proc",
+          "mount_point": "/proc",
+          "fs": "proc"
+        }
+      ],
+      "file_events": {
+        "create": 2276,
+        "modify": 3929,
+        "attrib": 9,
+        "move": 12,
+        "delete": 2253,
+        "write": 601
+      },
+      "files": 2350,
+      "count": 2866,
+      "common_path": "/",
+      "file_pattern": "*{.log,.vscdb-journal,.json,.lock,.md,.*,}",
+      "first_seen": "2026-11-02T18:46:09Z",
+      "last_seen": "2026-11-02T19:30:45Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/.config/Code/User/workspaceStorage/d0beb8786e48d63a05f8bbf40aa64b6c/state.vscdb-journal",
+          "count": 44,
+          "first_seen": "2026-11-02T18:56:34Z",
+          "last_seen": "2026-11-02T19:07:37Z",
+          "file_events": {
+            "create": 22,
+            "modify": 224,
+            "attrib": 0,
+            "move": 0,
+            "delete": 22,
+            "write": 22
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.config/Code/User/globalStorage/state.vscdb-journal",
+          "count": 40,
+          "first_seen": "2026-11-02T18:56:34Z",
+          "last_seen": "2026-11-02T19:07:41Z",
+          "file_events": {
+            "create": 20,
+            "modify": 205,
+            "attrib": 0,
+            "move": 0,
+            "delete": 20,
+            "write": 20
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.config/Code/User/globalStorage/agent-host-config.json",
+          "count": 22,
+          "first_seen": "2026-11-02T18:56:35Z",
+          "last_seen": "2026-11-02T19:07:20Z",
+          "file_events": {
+            "create": 0,
+            "modify": 44,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 22
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.config/Code/CachedData/e646868227c3e3a9e3f24277c8c7220be42c0be7/chrome/js/23bac8f657399c16_0",
+          "count": 8,
+          "first_seen": "2026-11-02T18:56:40Z",
+          "last_seen": "2026-11-02T19:07:25Z",
+          "file_events": {
+            "create": 0,
+            "modify": 16,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 8
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.config/Code/CachedData/e646868227c3e3a9e3f24277c8c7220be42c0be7/chrome/js/b339f65bb7bd3826_0",
+          "count": 8,
+          "first_seen": "2026-11-02T18:56:40Z",
+          "last_seen": "2026-11-02T19:07:25Z",
+          "file_events": {
+            "create": 0,
+            "modify": 16,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 8
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.vscode-shared/sharedStorage/state.vscdb-journal",
+          "count": 6,
+          "first_seen": "2026-11-02T18:56:34Z",
+          "last_seen": "2026-11-02T19:07:18Z",
+          "file_events": {
+            "create": 3,
+            "modify": 18,
+            "attrib": 0,
+            "move": 0,
+            "delete": 3,
+            "write": 3
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.config/Code/CachedConfigurations/defaults/__default__profile__-configurationDefaultsOverrides/configuration.json",
+          "count": 4,
+          "first_seen": "2026-11-02T18:56:35Z",
+          "last_seen": "2026-11-02T19:07:20Z",
+          "file_events": {
+            "create": 0,
+            "modify": 8,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 4
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.config/Code/DawnGraphiteCache/index",
+          "count": 4,
+          "first_seen": "2026-11-02T18:56:34Z",
+          "last_seen": "2026-11-02T19:07:18Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 4
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.config/Code/DawnWebGPUCache/index",
+          "count": 4,
+          "first_seen": "2026-11-02T18:56:34Z",
+          "last_seen": "2026-11-02T19:07:18Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 4
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.config/Code/GPUCache/index",
+          "count": 4,
+          "first_seen": "2026-11-02T18:56:34Z",
+          "last_seen": "2026-11-02T19:07:18Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 4
+          },
+          "file_size_change": 0
+        }
+      ]
+    },
+    {
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": "",
+      "agent": "opencode",
+      "tools": "git",
+      "process": "git",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 75,
+        "modify": 85,
+        "attrib": 15,
+        "move": 26,
+        "delete": 18,
+        "write": 58
+      },
+      "files": 57,
+      "count": 121,
+      "common_path": "/home/dirk/",
+      "file_pattern": "*{.lock,.sample,}",
+      "first_seen": "2026-11-02T19:18:27Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/config",
+          "count": 15,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 2,
+            "move": 13,
+            "delete": 0,
+            "write": 0
+          }
+        },
+        {
+          "name": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/config.lock",
+          "count": 13,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 13,
+            "modify": 29,
+            "attrib": 12,
+            "move": 0,
+            "delete": 0,
+            "write": 13
+          },
+          "file_size_change": 2142
+        },
+        {
+          "name": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/index",
+          "count": 11,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 11,
+            "delete": 0,
+            "write": 0
+          }
+        },
+        {
+          "name": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/index.lock",
+          "count": 11,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 11,
+            "modify": 22,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 11
+          },
+          "file_size_change": 13085
+        },
+        {
+          "name": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/taLTA7X",
+          "count": 4,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 2,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 2,
+            "write": 1
+          },
+          "file_size_change": -7
+        },
+        {
+          "name": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/objects/20/tmp_obj_FPvk8R",
+          "count": 2,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/objects/2f/tmp_obj_loI6Tf",
+          "count": 2,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/objects/30/tmp_obj_iKMmih",
+          "count": 2,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/objects/36/tmp_obj_rChk6X",
+          "count": 2,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/objects/51/tmp_obj_wDm76r",
+          "count": 2,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        }
+      ]
+    },
+    {
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": "",
+      "agent": "claude",
+      "tools": "",
+      "process": "claude",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        },
+        {
+          "name": "tmpfs",
+          "mount_point": "/tmp",
+          "fs": "tmpfs"
+        }
+      ],
+      "file_events": {
+        "create": 33,
+        "modify": 72,
+        "attrib": 0,
+        "move": 4,
+        "delete": 49,
+        "write": 47
+      },
+      "files": 55,
+      "count": 100,
+      "common_path": "/",
+      "file_pattern": "*{.json,.jsonl,.global,.key,.lock,.*,}",
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T19:29:17Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/.claude/sessions/39239.json",
+          "count": 6,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 2,
+            "modify": 8,
+            "attrib": 0,
+            "move": 0,
+            "delete": 2,
+            "write": 4
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.claude/sessions/41576.json",
+          "count": 6,
+          "first_seen": "2026-11-02T19:29:17Z",
+          "last_seen": "2026-11-02T19:29:17Z",
+          "file_events": {
+            "create": 2,
+            "modify": 8,
+            "attrib": 0,
+            "move": 0,
+            "delete": 2,
+            "write": 4
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.claude/projects/-home-dirk-projects-shop-api/ad8d174b-395f-42b3-a862-c63e1301ff29.jsonl",
+          "count": 5,
+          "first_seen": "2026-11-02T19:29:17Z",
+          "last_seen": "2026-11-02T19:29:17Z",
+          "file_events": {
+            "create": 1,
+            "modify": 5,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 5
+          },
+          "file_size_change": 151567
+        },
+        {
+          "name": "/home/dirk/.claude/projects/-home-dirk-projects-shop-api/b4313700-b650-4a8f-a64e-2f574e01a411.jsonl",
+          "count": 5,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 1,
+            "modify": 5,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 5
+          },
+          "file_size_change": 153577
+        },
+        {
+          "name": "/home/dirk/.local/state/claude/locks/2.1.309.lock",
+          "count": 4,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T19:29:17Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 2,
+            "delete": 2,
+            "write": 0
+          },
+          "file_size_change": -276
+        },
+        {
+          "name": "/tmp/claude-502/bash-edit-diff/13258363883662648143-15741131617002607803-9505b4a2a3f5eb8a/refs/heads/main",
+          "count": 4,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 1,
+            "modify": 5,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 3
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/tmp/claude-502/bash-edit-diff/3417475139305482184-15741131617002607803-bdc99e238a45acd7/refs/heads/main",
+          "count": 3,
+          "first_seen": "2026-11-02T19:29:17Z",
+          "last_seen": "2026-11-02T19:29:17Z",
+          "file_events": {
+            "create": 1,
+            "modify": 3,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 2
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.claude/sessions/39239.12dc77a1fa7f1ec7b24e570502b0370df7c3bb779899d7d0487620e36634582b.key",
+          "count": 2,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 1,
+            "delete": 1,
+            "write": 0
+          },
+          "file_size_change": -139
+        },
+        {
+          "name": "/home/dirk/.claude/sessions/41576.1d3f1096bca6d843df23edf3eab5a24f658511770d2b00caa71f9b585095c4f9.key",
+          "count": 2,
+          "first_seen": "2026-11-02T19:29:17Z",
+          "last_seen": "2026-11-02T19:29:17Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 1,
+            "delete": 1,
+            "write": 0
+          },
+          "file_size_change": -140
+        },
+        {
+          "name": "/tmp/claude-502/bash-edit-diff/13258363883662648143-15741131617002607803-9505b4a2a3f5eb8a/HEAD",
+          "count": 2,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 1,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        }
+      ]
+    },
+    {
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": "",
+      "agent": "claude",
+      "tools": "git",
+      "process": "git",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "tmpfs",
+          "mount_point": "/tmp",
+          "fs": "tmpfs"
+        }
+      ],
+      "file_events": {
+        "create": 47,
+        "modify": 46,
+        "attrib": 1,
+        "move": 15,
+        "delete": 16,
+        "write": 31
+      },
+      "files": 36,
+      "count": 79,
+      "common_path": "/tmp/claude-502/bash-edit-diff/",
+      "file_pattern": "*{.lock,}",
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T19:29:17Z",
+      "top_files": [
+        {
+          "name": "/tmp/claude-502/bash-edit-diff/13258363883662648143-15741131617002607803-9505b4a2a3f5eb8a/index",
+          "count": 8,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 8,
+            "delete": 0,
+            "write": 0
+          }
+        },
+        {
+          "name": "/tmp/claude-502/bash-edit-diff/13258363883662648143-15741131617002607803-9505b4a2a3f5eb8a/index.lock",
+          "count": 8,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 8,
+            "modify": 16,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 8
+          },
+          "file_size_change": 41872
+        },
+        {
+          "name": "/tmp/claude-502/bash-edit-diff/3417475139305482184-15741131617002607803-bdc99e238a45acd7/index",
+          "count": 7,
+          "first_seen": "2026-11-02T19:29:17Z",
+          "last_seen": "2026-11-02T19:29:17Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 7,
+            "delete": 0,
+            "write": 0
+          }
+        },
+        {
+          "name": "/tmp/claude-502/bash-edit-diff/3417475139305482184-15741131617002607803-bdc99e238a45acd7/index.lock",
+          "count": 7,
+          "first_seen": "2026-11-02T19:29:17Z",
+          "last_seen": "2026-11-02T19:29:17Z",
+          "file_events": {
+            "create": 7,
+            "modify": 14,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 7
+          },
+          "file_size_change": 29004
+        },
+        {
+          "name": "/tmp/claude-502/bash-edit-diff/13258363883662648143-15741131617002607803-9505b4a2a3f5eb8a/objects/27/tmp_obj_euVjiH",
+          "count": 2,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/tmp/claude-502/bash-edit-diff/13258363883662648143-15741131617002607803-9505b4a2a3f5eb8a/objects/2f/3bc967ab2d20ccccf510933f6f8edca98f8866",
+          "count": 2,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 1,
+            "modify": 0,
+            "attrib": 1,
+            "move": 0,
+            "delete": 0,
+            "write": 0
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/tmp/claude-502/bash-edit-diff/13258363883662648143-15741131617002607803-9505b4a2a3f5eb8a/objects/2f/tmp_obj_tCZYNp",
+          "count": 2,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/tmp/claude-502/bash-edit-diff/13258363883662648143-15741131617002607803-9505b4a2a3f5eb8a/objects/3b/tmp_obj_ulf8jx",
+          "count": 2,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/tmp/claude-502/bash-edit-diff/3417475139305482184-15741131617002607803-bdc99e238a45acd7/objects/13/tmp_obj_yEEniP",
+          "count": 2,
+          "first_seen": "2026-11-02T19:29:17Z",
+          "last_seen": "2026-11-02T19:29:17Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/tmp/claude-502/bash-edit-diff/3417475139305482184-15741131617002607803-bdc99e238a45acd7/objects/20/tmp_obj_p1a2Zb",
+          "count": 2,
+          "first_seen": "2026-11-02T19:29:17Z",
+          "last_seen": "2026-11-02T19:29:17Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        }
+      ]
+    },
+    {
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": "",
+      "agent": "codex",
+      "tools": "",
+      "process": "codex",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 8,
+        "modify": 497,
+        "attrib": 0,
+        "move": 1,
+        "delete": 31,
+        "write": 17
+      },
+      "files": 44,
+      "count": 52,
+      "common_path": "/home/dirk/.codex/",
+      "file_pattern": "*{.sample,.lock,.sqlite-shm,.sh,.sqlite-wal,.*,}",
+      "first_seen": "2026-11-02T19:07:39Z",
+      "last_seen": "2026-11-02T19:07:40Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/.codex/.tmp/git-vWvacp/HEAD",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:39Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.codex/shell_snapshots/01a19da8-fb0f-73a0-8915-4a4695dce354.1793646459671333484.sh",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:39Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 1,
+            "delete": 1,
+            "write": 0
+          },
+          "file_size_change": -7921
+        },
+        {
+          "name": "/home/dirk/.codex/thread-writer-locks/.coordination.lock",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:39Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 2
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.codex/thread-writer-locks/01a19da8-fb0f-73a0-8915-4a4695dce354.lock",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.codex/tmp/arg0-linux/codex-arg0VV3akF/.lock",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.codex/tmp/arg0-linux/codex-arg0VV3akF/apply_patch",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:39Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 0
+          },
+          "file_size_change": -124
+        },
+        {
+          "name": "/home/dirk/.codex/tmp/arg0-linux/codex-arg0VV3akF/applypatch",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:39Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 0
+          },
+          "file_size_change": -124
+        },
+        {
+          "name": "/home/dirk/.codex/tmp/arg0-linux/codex-arg0VV3akF/codex-linux-sandbox",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:39Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 0
+          },
+          "file_size_change": -124
+        },
+        {
+          "name": "/home/dirk/.codex/.tmp/plugins-clone-k5RHV4/.git/FETCH_HEAD",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 0
+          },
+          "file_size_change": -122
+        },
+        {
+          "name": "/home/dirk/.codex/.tmp/plugins-clone-k5RHV4/.git/HEAD",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 0
+          },
+          "file_size_change": -23
+        }
+      ]
+    },
+    {
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": "",
+      "agent": "opencode",
+      "tools": "opencode.exe",
+      "process": "opencode.exe",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 11,
+        "modify": 1697,
+        "attrib": 2,
+        "move": 1,
+        "delete": 6,
+        "write": 28
+      },
+      "files": 15,
+      "count": 36,
+      "common_path": "/home/dirk/",
+      "file_pattern": "*{.json,.db-shm,.db-wal,.db,.log,.*,}",
+      "first_seen": "2026-11-02T19:18:26Z",
+      "last_seen": "2026-11-02T19:18:27Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/info/exclude",
+          "count": 15,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 0,
+            "modify": 30,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 15
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.local/state/opencode/locks/f979052a1f880f40509ff32a14af0a75bb502d95.lock/heartbeat",
+          "count": 3,
+          "first_seen": "2026-11-02T19:18:26Z",
+          "last_seen": "2026-11-02T19:18:26Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 1,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.local/share/opencode/opencode.db-shm",
+          "count": 2,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 1,
+            "modify": 9,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.local/share/opencode/opencode.db-wal",
+          "count": 2,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1064,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.local/state/opencode/locks/44fc6b77473544ff04df27b6c1e97b6050e3e25d.lock/heartbeat",
+          "count": 2,
+          "first_seen": "2026-11-02T19:18:26Z",
+          "last_seen": "2026-11-02T19:18:26Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.local/state/opencode/locks/44fc6b77473544ff04df27b6c1e97b6050e3e25d.lock/meta.json",
+          "count": 2,
+          "first_seen": "2026-11-02T19:18:26Z",
+          "last_seen": "2026-11-02T19:18:26Z",
+          "file_events": {
+            "create": 1,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.local/state/opencode/locks/f979052a1f880f40509ff32a14af0a75bb502d95.lock/meta.json",
+          "count": 2,
+          "first_seen": "2026-11-02T19:18:26Z",
+          "last_seen": "2026-11-02T19:18:26Z",
+          "file_events": {
+            "create": 1,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.cache/opencode/models.json",
+          "count": 1,
+          "first_seen": "2026-11-02T19:18:26Z",
+          "last_seen": "2026-11-02T19:18:26Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 1,
+            "delete": 0,
+            "write": 0
+          }
+        },
+        {
+          "name": "/home/dirk/.cache/opencode/models.json.40928.1793647106956.tmp",
+          "count": 1,
+          "first_seen": "2026-11-02T19:18:26Z",
+          "last_seen": "2026-11-02T19:18:26Z",
+          "file_events": {
+            "create": 1,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 5959285
+        },
+        {
+          "name": "/home/dirk/.local/share/opencode/log/opencode.log",
+          "count": 1,
+          "first_seen": "2026-11-02T19:18:27Z",
+          "last_seen": "2026-11-02T19:18:27Z",
+          "file_events": {
+            "create": 0,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 3132
+        }
+      ]
+    },
+    {
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": "",
+      "agent": "codex",
+      "tools": "plugins-curated",
+      "process": "plugins-curated",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 0,
+        "modify": 0,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 21
+      },
+      "files": 12,
+      "count": 21,
+      "common_path": "/home/dirk/.codex/",
+      "file_pattern": "*.{sqlite,sqlite-wal}",
+      "first_seen": "2026-11-02T19:07:40Z",
+      "last_seen": "2026-11-02T19:07:40Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/.codex/state_5.sqlite",
+          "count": 3,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 3
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.codex/goals_1.sqlite",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 2
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.codex/goals_1.sqlite-wal",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 2
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.codex/logs_2.sqlite-wal",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 2
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.codex/queue_1.sqlite",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 2
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.codex/queue_1.sqlite-wal",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 2
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.codex/state_5.sqlite-wal",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 2
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.codex/thread_history_1.sqlite",
+          "count": 2,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 2
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.codex/logs_2.sqlite",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.codex/memories_1.sqlite",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 0
+        }
+      ]
+    },
+    {
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": "",
+      "agent": "claude",
+      "tools": "bash",
+      "process": "bash",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "tmpfs",
+          "mount_point": "/tmp",
+          "fs": "tmpfs"
+        }
+      ],
+      "file_events": {
+        "create": 3,
+        "modify": 3,
+        "attrib": 0,
+        "move": 0,
+        "delete": 0,
+        "write": 6
+      },
+      "files": 6,
+      "count": 6,
+      "common_path": "/tmp/",
+      "file_pattern": "*{.output,}",
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T19:29:17Z",
+      "top_files": [
+        {
+          "name": "/tmp/claude-1884-cwd",
+          "count": 1,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 29
+        },
+        {
+          "name": "/tmp/claude-502/-home-dirk-projects-shop-api/ad8d174b-395f-42b3-a862-c63e1301ff29/tasks/bx1e6rbdz.output",
+          "count": 1,
+          "first_seen": "2026-11-02T19:29:17Z",
+          "last_seen": "2026-11-02T19:29:17Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/tmp/claude-502/-home-dirk-projects-shop-api/b4313700-b650-4a8f-a64e-2f574e01a411/tasks/b36i6kzw8.output",
+          "count": 1,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/tmp/claude-502/-home-dirk-projects-shop-api/b4313700-b650-4a8f-a64e-2f574e01a411/tasks/bzueskm91.output",
+          "count": 1,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/tmp/claude-6670-cwd",
+          "count": 1,
+          "first_seen": "2026-11-02T19:29:17Z",
+          "last_seen": "2026-11-02T19:29:17Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 29
+        },
+        {
+          "name": "/tmp/claude-c0d5-cwd",
+          "count": 1,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 29
+        }
+      ]
+    },
+    {
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": "",
+      "agent": "codex",
+      "tools": "node:npm",
+      "process": "node:npm",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 2,
+        "modify": 72,
+        "attrib": 0,
+        "move": 1,
+        "delete": 1,
+        "write": 4
+      },
+      "files": 6,
+      "count": 6,
+      "common_path": "/home/dirk/.npm/",
+      "file_pattern": "*{.log,}",
+      "first_seen": "2026-11-02T19:07:40Z",
+      "last_seen": "2026-11-02T19:07:40Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/.npm/_cacache/index-v5/04/5a/2b5d7a7c407d85d746baa0f5c9388a333e35a717a8a0a81943daa6cb1364",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 758
+        },
+        {
+          "name": "/home/dirk/.npm/_cacache/tmp/2b5d7a7c407d85d746baa0f5c9388a333e35a717a8a0a81943daa6cb1364",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 1,
+            "delete": 0,
+            "write": 0
+          }
+        },
+        {
+          "name": "/home/dirk/.npm/_cacache/tmp/e8f8e5c5",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 758
+        },
+        {
+          "name": "/home/dirk/.npm/_logs/2026-11-02T18_56_53_100Z-debug-0.log",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 1,
+            "write": 0
+          },
+          "file_size_change": -3476
+        },
+        {
+          "name": "/home/dirk/.npm/_logs/2026-11-02T19_07_40_156Z-debug-0.log",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 68,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 3050
+        },
+        {
+          "name": "/home/dirk/.npm/_update-notifier-last-checked",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 2,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 0
+        }
+      ]
+    },
+    {
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": "",
+      "agent": "codex",
+      "tools": "git",
+      "process": "git",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 3,
+        "modify": 6251,
+        "attrib": 0,
+        "move": 1,
+        "delete": 0,
+        "write": 3
+      },
+      "files": 4,
+      "count": 4,
+      "common_path": "/home/dirk/.codex/.tmp/plugins-clone-AHtLIY/.git/",
+      "file_pattern": "*{.lock,}",
+      "first_seen": "2026-11-02T19:07:40Z",
+      "last_seen": "2026-11-02T19:07:41Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/.codex/.tmp/plugins-clone-AHtLIY/.git/FETCH_HEAD",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 0,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 0
+        },
+        {
+          "name": "/home/dirk/.codex/.tmp/plugins-clone-AHtLIY/.git/HEAD",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 0,
+            "modify": 0,
+            "attrib": 0,
+            "move": 1,
+            "delete": 0,
+            "write": 0
+          }
+        },
+        {
+          "name": "/home/dirk/.codex/.tmp/plugins-clone-AHtLIY/.git/HEAD.lock",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:40Z",
+          "last_seen": "2026-11-02T19:07:40Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 23
+        },
+        {
+          "name": "/home/dirk/.codex/.tmp/plugins-clone-AHtLIY/.git/objects/pack/tmp_pack_ImpDhD",
+          "count": 1,
+          "first_seen": "2026-11-02T19:07:41Z",
+          "last_seen": "2026-11-02T19:07:41Z",
+          "file_events": {
+            "create": 1,
+            "modify": 6250,
+            "attrib": 0,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 25495172
+        }
+      ]
+    },
+    {
+      "risk_category": "OPERATIONAL_NOISE",
+      "risk_priority": 0,
+      "risk_description": "",
+      "agent": "claude",
+      "tools": "sed",
+      "process": "sed",
+      "host": "dev1",
+      "user": "dirk",
+      "devices": [
+        {
+          "name": "/dev/vda1",
+          "mount_point": "/",
+          "fs": "ext4"
+        }
+      ],
+      "file_events": {
+        "create": 2,
+        "modify": 2,
+        "attrib": 2,
+        "move": 0,
+        "delete": 0,
+        "write": 2
+      },
+      "files": 2,
+      "count": 2,
+      "common_path": "/home/dirk/",
+      "file_pattern": "{sedQeoO5l,sedv9OyL9}",
+      "first_seen": "2026-11-02T18:46:08Z",
+      "last_seen": "2026-11-02T19:29:17Z",
+      "top_files": [
+        {
+          "name": "/home/dirk/projects/shop-api/sedv9OyL9",
+          "count": 1,
+          "first_seen": "2026-11-02T18:46:08Z",
+          "last_seen": "2026-11-02T18:46:08Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 1,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 65
+        },
+        {
+          "name": "/home/dirk/sedQeoO5l",
+          "count": 1,
+          "first_seen": "2026-11-02T19:29:17Z",
+          "last_seen": "2026-11-02T19:29:17Z",
+          "file_events": {
+            "create": 1,
+            "modify": 1,
+            "attrib": 1,
+            "move": 0,
+            "delete": 0,
+            "write": 1
+          },
+          "file_size_change": 430
+        }
+      ]
+    }
+  ],
+  "grouped_file_changes_risk_total": 19,
+  "grouped_file_changes_routine_total": 11,
+  "top_hosts": [
+    {
+      "name": "dev1",
+      "count": 4342
+    }
+  ],
+  "top_users": [
+    {
+      "name": "dirk",
+      "count": 4342
+    }
+  ],
+  "top_agents": [
+    {
+      "name": "copilot",
+      "count": 2891
+    },
+    {
+      "name": "codex",
+      "count": 960
+    },
+    {
+      "name": "claude",
+      "count": 310
+    },
+    {
+      "name": "opencode",
+      "count": 181
+    }
+  ],
+  "top_tools": [
+    {
+      "name": "node:npm",
+      "count": 849
+    },
+    {
+      "name": "git",
+      "count": 258
+    },
+    {
+      "name": "gnurm",
+      "count": 60
+    },
+    {
+      "name": "bash",
+      "count": 53
+    },
+    {
+      "name": "opencode.exe",
+      "count": 37
+    },
+    {
+      "name": "plugins-curated",
+      "count": 22
+    },
+    {
+      "name": "cat",
+      "count": 8
+    },
+    {
+      "name": "head",
+      "count": 6
+    },
+    {
+      "name": "sed",
+      "count": 4
+    }
+  ],
+  "top_files": [
+    {
+      "name": "/home/dirk/.config/Code/User/workspaceStorage/d0beb8786e48d63a05f8bbf40aa64b6c/state.vscdb-journal",
+      "count": 44
+    },
+    {
+      "name": "/home/dirk/.config/Code/User/globalStorage/state.vscdb-journal",
+      "count": 40
+    },
+    {
+      "name": "/home/dirk/.claude/shell-snapshots/snapshot-bash-1793645168242-u09sq6.sh",
+      "count": 31
+    },
+    {
+      "name": "/home/dirk/.claude/shell-snapshots/snapshot-bash-1793647757627-oueyq2.sh",
+      "count": 31
+    },
+    {
+      "name": "/home/dirk/.config/Code/User/globalStorage/agent-host-config.json",
+      "count": 22
+    },
+    {
+      "name": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/info/exclude",
+      "count": 16
+    },
+    {
+      "name": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/config",
+      "count": 15
+    },
+    {
+      "name": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/config.lock",
+      "count": 13
+    },
+    {
+      "name": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/index",
+      "count": 12
+    },
+    {
+      "name": "/home/dirk/.local/share/opencode/snapshot/f23fbf73e49db819cc24a9f2fd536b2191b9002a/31bee9c7348e06591cd2be0faa92be0dad49e914/index.lock",
+      "count": 11
+    },
+    {
+      "name": "/tmp/claude-502/bash-edit-diff/13258363883662648143-15741131617002607803-9505b4a2a3f5eb8a/index",
+      "count": 10
+    },
+    {
+      "name": "/tmp/claude-502/bash-edit-diff/3417475139305482184-15741131617002607803-bdc99e238a45acd7/index",
+      "count": 9
+    },
+    {
+      "name": "/home/dirk/.config/Code/CachedData/e646868227c3e3a9e3f24277c8c7220be42c0be7/chrome/js/23bac8f657399c16_0",
+      "count": 8
+    },
+    {
+      "name": "/home/dirk/.config/Code/CachedData/e646868227c3e3a9e3f24277c8c7220be42c0be7/chrome/js/b339f65bb7bd3826_0",
+      "count": 8
+    },
+    {
+      "name": "/tmp/claude-502/bash-edit-diff/13258363883662648143-15741131617002607803-9505b4a2a3f5eb8a/index.lock",
+      "count": 8
+    },
+    {
+      "name": "/tmp/claude-502/bash-edit-diff/3417475139305482184-15741131617002607803-bdc99e238a45acd7/index.lock",
+      "count": 7
+    },
+    {
+      "name": "/home/dirk/.claude/sessions/39239.json",
+      "count": 6
+    },
+    {
+      "name": "/home/dirk/.claude/sessions/41576.json",
+      "count": 6
+    },
+    {
+      "name": "/home/dirk/.codex/.tmp/plugins-clone-AHtLIY/.git/config",
+      "count": 6
+    },
+    {
+      "name": "/home/dirk/.vscode-shared/sharedStorage/state.vscdb-journal",
+      "count": 6
+    }
+  ]
+}

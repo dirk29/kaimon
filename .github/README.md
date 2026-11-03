@@ -7,8 +7,8 @@
   Antigravity, Cline, Kilo Code, OpenCode, Pi and more
 - **40+ risk categories**
 - **Every file change** on every filesystem of your machine, not just your repo
-- **100% local**: nothing leaves your machine
-- **Always free**
+- **100% local**: on Linux desktop, over Remote-SSH or in WSL 2; nothing leaves your machine
+- **Always free**: no signup
 
 **Get the free extension on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=kaimon.kaimon)
 or [Open VSX](https://open-vsx.org/extension/kaimon/kaimon)**, then one command sets up the kernel
@@ -18,12 +18,7 @@ agent, checksum verified. Up and running in ~2 minutes.
 
 *VS Code hover sample*
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../images/aim-hover-dark.webp">
-  <!-- Light slot shows the dark hover until the demo hour's light shot (images/aim-hover-light.webp) exists. -->
-  <source media="(prefers-color-scheme: light)" srcset="../images/aim-hover-dark.webp">
-  <img alt="The kaimon hover: risk findings by severity and the top rows, each with its agent, tools and files" src="../images/aim-hover-dark.webp">
-</picture>
+<img alt="The kaimon hover: risk findings by severity and the top rows, each with its agent, tools and files" src="../images/aim-hover-dark.webp">
 
 ---
 
@@ -55,17 +50,47 @@ agent, checksum verified. Up and running in ~2 minutes.
 - **Panel.** Click the status bar. The last 10 minutes, hour or day, with a timeline of risk
   findings against all file changes. Expand any row for each file's events and net size change.
   `Ctrl+F` finds a file across every row.
-- **Report.** The full page, with Top Findings across every risk category. Download it as HTML
-  or JSON, or open it in your browser.
+
+  *VS Code panel sample*
+
+  <img alt="The kaimon panel: the timeline of the last hour and every Top Findings row" src="../images/aim-panel-dark.webp">
+
+- **Downloadable Reports.** The full page, with Top Findings across every risk category.
+  Download it as HTML or JSON, or open it in your browser.
+
+  *HTML report sample*
+
+  <img alt="The kaimon report: KPIs, Security Summary, Risk Profile and Top Findings" src="../images/aim-report.webp">
+
+  &nbsp;
+
+  *JSON report sample (excerpt; [full sample](../samples/aim-report-sample.json))*
+
+  ```json
+  {
+    "meta": { "schema": "kaimon/2", "module": "aim", "window": "1h",
+              "start_time": "2026-11-02T18:31:00Z", "end_time": "2026-11-02T19:31:53Z" },
+    "severity_counts": [ { "name": "CRITICAL", "count": 2 }, { "name": "HIGH", "count": 65 },
+                         { "name": "MEDIUM", "count": 864 }, { "name": "LOW", "count": 118 } ],
+    "top_file_changes_risk": [ {
+      "agent": "codex",
+      "tools": "bash",
+      "file": "/home/dirk/.ssh/authorized_keys",
+      "file_events": { "modify": 1, "write": 1 },
+      "file_size_change": 95,
+      "first_seen": "2026-11-02T19:07:40Z",
+      "risk_category": "CRED_WRITE",
+      "risk_severity": "CRITICAL",
+      "risk_description": "Detects an AI agent writing to SSH keys or config"
+    } ]
+  }
+  ```
 
 ## Get started
 
-<!-- Demo loop GIF from the demo hour (local.md 3.7): install, then a prompt, the count rising, hover, panel.
-![Install kaimon and see an agent's file changes in VS Code](../images/aim-demo.gif)
--->
-
-1. Install this extension in a VS Code window on a **Linux** host: your Linux desktop, or a
-   Remote-SSH window. On macOS or Windows, connect to a Linux machine with Remote-SSH.
+1. Install this extension in a VS Code window on a **Linux** host: your Linux desktop, a
+   Remote-SSH window, or a WSL 2 window on Windows. On macOS, connect to a Linux machine with
+   Remote-SSH.
 2. The status bar shows `AIM off`. Hover over it and copy the one-line installer for the kaimon
    daemon:
 
@@ -133,8 +158,9 @@ Bug reports and feature requests: [GitHub issues](https://github.com/dirk29/kaim
 
 ## License
 
-This extension is open source under the [Apache License 2.0](../LICENSE). The kaimon daemon, the
-CLI and the ruleset they ship with are proprietary and licensed separately. Agent names and
-logos belong to their owners; see [NOTICE](../NOTICE).
+The extension is open source under the [Apache License 2.0](../LICENSE). The kaimon daemon, CLI
+and detection rules are proprietary: they install separately on your Linux host, under the
+kaimon license and [Terms](https://kaimon.co/terms.html). Agent names and logos belong to their
+owners; see [NOTICE](../NOTICE).
 
 Questions: hello@kaimon.co · Security issues: security@kaimon.co

@@ -5,6 +5,7 @@
     "outDir": "out",
     "lib": ["ES2022"],
     "sourceMap": true,
+    "removeComments": true,
     "rootDir": "src",
     "strict": true
   },

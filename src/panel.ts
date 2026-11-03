@@ -337,17 +337,17 @@ function styles(a?: Assets): string {
            color: var(--vscode-foreground); padding: 20px 24px 28px; max-width: 900px;
            line-height: 1.5; }
 
-    /* The header, 1:1 with the hover: title, who did what, the severity
-       strip, then the rows, then the footer line. */
-    /* One fixed box per mark, glyph centered: each vendor mark has its own
-       width, and the "›" after it should line up row to row. */
+    ${/* The header, 1:1 with the hover: title, who did what, the severity
+       strip, then the rows, then the footer line. */ ""}
+    ${/* One fixed box per mark, glyph centered: each vendor mark has its own
+       width, and the "›" after it should line up row to row. */ ""}
     .mark { font-family: kaimon-actors; font-style: normal; margin-right: 3px;
       display: inline-block; width: 1.15em; text-align: center; }
     .title { font-size: 1.05em; margin: 0 0 8px; }
     .title { display: flex; align-items: center; }
     .title .mark { margin-right: 7px; }
-    /* Before the search rules on purpose: they override its display, and
-       declaration order then agrees with specificity. */
+    ${/* Before the search rules on purpose: they override its display, and
+       declaration order then agrees with specificity. */ ""}
     .icon { display: flex; padding: 3px; border: none; border-radius: 4px; cursor: pointer;
             background: none; color: var(--vscode-icon-foreground, var(--vscode-descriptionForeground)); }
     .icon:hover { background: var(--vscode-toolbar-hoverBackground); color: var(--vscode-foreground); }
@@ -358,8 +358,8 @@ function styles(a?: Assets): string {
            border-top: 1px solid var(--vscode-sideBarSectionHeader-border, transparent);
            font-size: .85em; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
     .bt { display: flex; align-items: center; gap: 7px; }
-    /* The timeline card, after the dashboard's: a bordered card with a small
-       gray heading. */
+    ${/* The timeline card, after the dashboard's: a bordered card with a small
+       gray heading. */ ""}
     .tline { margin-top: 16px; padding: 10px 12px 2px; border-radius: 6px;
              border: 1px solid var(--vscode-panel-border, rgba(128, 128, 128, .35)); }
     .tline-h { display: flex; align-items: center; gap: 6px; font-size: .8em; font-weight: 600;
@@ -369,34 +369,34 @@ function styles(a?: Assets): string {
     .tl-tick { stroke: var(--vscode-descriptionForeground); stroke-width: 1; opacity: .5; }
     .tl-axis, .tl-legend { fill: var(--vscode-descriptionForeground); font-size: 9px; }
     .tl-legend { font-weight: 500; }
-    /* File changes in kaimon's primary brand blue (--blue on the website).
+    ${/* File changes in kaimon's primary brand blue (--blue on the website).
        The theme's chart blue sat at LOW's lightness and read as the same
        line; the dashboard's #2B6493 was too dark on a dark panel. This one
        differs from LOW's slate in both saturation and lightness (Dirk,
        2026-09-25). The risk line's color comes per slot from the severity
-       palette, as a stroke attribute. */
+       palette, as a stroke attribute. */ ""}
     .tline { --tl-blue: #2563eb; }
     .tl-logs { fill: none; stroke: var(--tl-blue); stroke-width: 1.5; }
     .tl-flag { fill: none; stroke-width: 1.6; stroke-linecap: round; }
     .tl-flag.tl-none { stroke: var(--vscode-descriptionForeground); }
     .tl-hit { fill: transparent; cursor: pointer; }
-    /* A row's slots, shaded while the mouse is on the row. */
-    /* The text color at low opacity: a lighter gray on a dark theme, a darker
+    ${/* A row's slots, shaded while the mouse is on the row. */ ""}
+    ${/* The text color at low opacity: a lighter gray on a dark theme, a darker
        one on a light theme. The rows' own hover gray vanished inside the chart,
        worst for a day's ~8px slot under a spike; side edges were tried and
-       dropped (2026-09-26). */
+       dropped (2026-09-26). */ ""}
     .tl-band { fill: var(--vscode-foreground); fill-opacity: .12; pointer-events: none; }
-    /* Switching window: a run over a day takes seconds, so the page says it is
+    ${/* Switching window: a run over a day takes seconds, so the page says it is
        loading and dims what is still the OLD window's data, which must not be
-       read as the new one. Everything is replaced when the report arrives. */
+       read as the new one. Everything is replaced when the report arrives. */ ""}
     .busy { position: fixed; top: 0; left: 0; right: 0; height: 2px; overflow: hidden; display: none; }
     .busy::before { content: ""; position: absolute; top: 0; bottom: 0; width: 30%;
                     background: var(--vscode-progressBar-background, #0e70c0); animation: busy 1.2s ease-in-out infinite; }
     @keyframes busy { from { left: -30%; } to { left: 100%; } }
     body.loading .busy { display: block; }
     body.loading > :not(.title):not(.sub):not(.busy):not(script) { opacity: .45; pointer-events: none; transition: opacity .15s; }
-    /* The dashboard's axis pointer and popup. Positioned by the page script
-       through CSSOM, which the CSP allows where it forbids style attributes. */
+    ${/* The dashboard's axis pointer and popup. Positioned by the page script
+       through CSSOM, which the CSP allows where it forbids style attributes. */ ""}
     .tline { position: relative; }
     .tl-guide { stroke: var(--vscode-descriptionForeground); stroke-width: 1; stroke-dasharray: 3 2; pointer-events: none; }
     .tl-mk { stroke: var(--vscode-editor-background); stroke-width: 1.5; pointer-events: none; }
@@ -410,9 +410,9 @@ function styles(a?: Assets): string {
     .tl-tip[hidden] { display: none; }
     .tt-h { color: var(--vscode-descriptionForeground); }
     .tt-r { display: flex; align-items: center; gap: 8px; }
-    /* Label and number side by side with a fixed gap, numbers aligned right
+    ${/* Label and number side by side with a fixed gap, numbers aligned right
        across the rows. A min-width stretched the label and pushed the number
-       far off (2026-09-25). */
+       far off (2026-09-25). */ ""}
     .tt-k { flex: 1; }
     .tt-r b { margin-left: 12px; }
     .tt-d { width: 7px; height: 7px; border-radius: 50%; background: var(--vscode-descriptionForeground); }
@@ -426,10 +426,10 @@ function styles(a?: Assets): string {
     .sfield { position: relative; width: 26px; height: 24px; transition: width .2s ease; }
     .search.open .sfield { width: 220px; }
     .sicon { position: absolute; left: 1px; top: 50%; transform: translateY(-50%); z-index: 1; }
-    /* Hidden with a selector that outranks .icon's display:flex, which is
+    ${/* Hidden with a selector that outranks .icon's display:flex, which is
        declared later. Equal specificity let the clear button show over the
        magnifier while the field was closed, so the click cleared instead of
-       opening (2026-09-25). */
+       opening (2026-09-25). */ ""}
     .search .sfield .sclear { position: absolute; right: 1px; top: 50%; transform: translateY(-50%);
                               z-index: 1; display: none; }
     .search.open.has .sfield .sclear { display: flex; }
@@ -448,13 +448,13 @@ function styles(a?: Assets): string {
     .sub { margin: 0; }
     .sub b { font-weight: 600; }
     .sub .mark { margin-right: 4px; }
-    /* Symmetric with the 4px before the select: the text space alone read as
-       too tight against the dropdown's box. */
+    ${/* Symmetric with the 4px before the select: the text space alone read as
+       too tight against the dropdown's box. */ ""}
     .win { margin-right: 4px; }
     hr { border: none; border-top: 1px solid var(--vscode-panel-border); margin: 10px 0; }
     .tiers { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
-    /* Tinted from the text color, so each box follows its own severity and the
-       theme's background: a filled box in fixed hexes would fight a light theme. */
+    ${/* Tinted from the text color, so each box follows its own severity and the
+       theme's background: a filled box in fixed hexes would fight a light theme. */ ""}
     .tier { display: flex; justify-content: space-between; align-items: center; gap: 8px;
             padding: 5px 8px 5px 12px; border-radius: 4px; font-weight: 700; letter-spacing: .03em;
             background: color-mix(in srgb, currentColor 16%, transparent); }
@@ -463,27 +463,27 @@ function styles(a?: Assets): string {
                 background: color-mix(in srgb, currentColor 20%, transparent); }
     .tier.zero .tv { background: none; }
     .foot { color: var(--vscode-descriptionForeground); font-style: italic; margin: 10px 0 0; }
-    /* The one way to the CLI's full HTML report: an afterthought, gray, below
+    ${/* The one way to the CLI's full HTML report: an afterthought, gray, below
        the footer on the left. Tried the same day (2026-09-26): a "\u203a" beside
        TOP FINDINGS (missed), gray on the footer line (missed), blue on that line
        (glued to the table, all but demanding a click), blue below the footer on
-       the right (still in the face). */
+       the right (still in the face). */ ""}
     .more-report { margin-top: 20px; }
     .btn { padding: 4px 12px; border-radius: 2px; cursor: pointer; font: inherit;
            color: var(--vscode-button-secondaryForeground); background: var(--vscode-button-secondaryBackground);
            border: 1px solid var(--vscode-button-border, transparent); white-space: nowrap; }
     .btn:hover { background: var(--vscode-button-secondaryHoverBackground); }
 
-    /* The rows. The hover's four columns — Risk, Agent > Tools > Files, #,
+    ${/* The rows. The hover's four columns — Risk, Agent > Tools > Files, #,
        Seen — under the hover's own headers. Fixed widths so the columns
        line up across rows, each of which is its own <details>. Risk fits the
-       longest category in the ruleset, CREDENTIAL ACCESS / DEPENDENCY CHANGE. */
+       longest category in the ruleset, CREDENTIAL ACCESS / DEPENDENCY CHANGE. */ ""}
     :root { --risk: 12em; --num: 3.5em; --when: 7.5em; --gap: 14px; --gutter: 16px; }
     ul { list-style: none; padding: 0; margin: 0; }
-    /* Seen grows past --when when a range needs both am and pm
+    ${/* Seen grows past --when when a range needs both am and pm
        ("4:57pm → 9:01am"): the page script measures the widest one into
        --when-fit, since each row is its own grid and cannot size a column
-       for the others. */
+       for the others. */ ""}
     .grid { display: grid; grid-template-columns: var(--risk) 1fr var(--num) max(var(--when), var(--when-fit, 0px));
             column-gap: var(--gap); align-items: baseline; padding: 4px 0 4px var(--gutter); }
     .head { font-weight: 600; padding-top: 0; padding-bottom: 6px;
@@ -491,14 +491,14 @@ function styles(a?: Assets): string {
     .rows > li + li { border-top: 1px solid var(--vscode-panel-border); }
     .risk { font-weight: 700; white-space: nowrap; }
     .what i { font-style: italic; }
-    /* VS Code gives <code> a filled, padded box in webviews. Paths here are
-       data in a list, not inline snippets in prose, so the box is noise. */
+    ${/* VS Code gives <code> a filled, padded box in webviews. Paths here are
+       data in a list, not inline snippets in prose, so the box is noise. */ ""}
     code { font-family: var(--vscode-editor-font-family); background: none; padding: 0; border-radius: 0; }
     .n, .when { text-align: right; white-space: nowrap; }
     .dayoff { font-size: .7em; color: var(--vscode-descriptionForeground); margin-left: 1px; }
 
-    /* The disclosure lives in the gutter, so the four columns start at the
-       same x on every row whether or not it opens. */
+    ${/* The disclosure lives in the gutter, so the four columns start at the
+       same x on every row whether or not it opens. */ ""}
     .rows details { position: relative; }
     .rows summary { cursor: pointer; list-style: none; }
     .rows summary::-webkit-details-marker { display: none; }
@@ -506,19 +506,19 @@ function styles(a?: Assets): string {
             color: var(--vscode-descriptionForeground); pointer-events: none; }
     .rows details[open]::before { content: "⌄"; left: 1px; top: 0; }
     .rows summary:hover { background: var(--vscode-list-hoverBackground); }
-    /* Lit from the timeline: the rows with changes in the slot under the
-       mouse, and after a click the files that made them. */
+    ${/* Lit from the timeline: the rows with changes in the slot under the
+       mouse, and after a click the files that made them. */ ""}
     .rows > li.tl-on > .grid, .rows > li.tl-on > details > summary,
     .rows > li.sev-on > .grid, .rows > li.sev-on > details > summary { background: var(--vscode-list-hoverBackground); }
-    /* A severity box with rows behind it works like the timeline: point to
-       light that severity's rows, click to open them, click again to close. */
+    ${/* A severity box with rows behind it works like the timeline: point to
+       light that severity's rows, click to open them, click again to close. */ ""}
     .tier.live { cursor: pointer; }
     .files > li.tl-pick { background: var(--vscode-list-inactiveSelectionBackground, rgba(128, 128, 128, .18)); }
 
-    /* The expansion: what the pattern stood for. Each file is a row on the
+    ${/* The expansion: what the pattern stood for. Each file is a row on the
        SAME grid as the finding it expands — the path in the Files column,
        under the pattern it matched, and its count in the # column, under the
-       total it sums to. Smaller and quieter than the row above it. */
+       total it sums to. Smaller and quieter than the row above it. */ ""}
     .files { margin: -2px 0 8px; padding: 0; list-style: none; }
     .files .grid { padding-top: 1px; padding-bottom: 1px; }
     .files code { grid-column: 2; font-size: .85em; line-height: 1.45;
@@ -532,9 +532,9 @@ function styles(a?: Assets): string {
     .files .more { grid-column: 2 / -1; }
     .files .more { color: var(--vscode-descriptionForeground); font-style: italic; font-size: .9em; }
 
-    /* Severity and actor palette: the hover's own hexes. LOW is blue-gray
+    ${/* Severity and actor palette: the hover's own hexes. LOW is blue-gray
        rather than green — green reads as "verified fine", but LOW means
-       "recorded". */
+       "recorded". */ ""}
     ${palette()}
 
   `;
@@ -565,13 +565,13 @@ export function activityBody(r: cli.Report, collecting: boolean, n: string, a: A
   <div class="more-report"><button id="full" class="btn">Open Report</button></div>
 <script nonce="${n}">
   const vscode = acquireVsCodeApi();
-  // What a click on the timeline or a severity box last opened ("t12",
-  // "sMEDIUM"): one state for both, so a second click on the same thing
-  // closes it, and a click on the other opens rather than toggling.
+  ${/* What a click on the timeline or a severity box last opened ("t12",
+     "sMEDIUM"): one state for both, so a second click on the same thing
+     closes it, and a click on the other opens rather than toggling. */ ""}
   let pick = '';
-  // Seen fits its widest visible range. A Range measures the text itself,
-  // not the fixed track it overflows. Files inside a closed row measure 0,
-  // so it measures again whenever a row opens.
+  ${/* Seen fits its widest visible range. A Range measures the text itself,
+     not the fixed track it overflows. Files inside a closed row measure 0,
+     so it measures again whenever a row opens. */ ""}
   const fitSeen = () => {
     const text = document.createRange();
     if (!text.getBoundingClientRect) { return; }
@@ -584,8 +584,8 @@ export function activityBody(r: cli.Report, collecting: boolean, n: string, a: A
   };
   fitSeen();
   document.addEventListener('toggle', fitSeen, true);
-  // The timeline's axis pointer: guide, markers and popup follow the slot
-  // under the mouse, as on the dashboard.
+  ${/* The timeline's axis pointer: guide, markers and popup follow the slot
+     under the mouse, as on the dashboard. */ ""}
   (() => {
     const chart = document.querySelector('.tl-chart');
     const tip = document.getElementById('tlTip');
@@ -609,10 +609,10 @@ export function activityBody(r: cli.Report, collecting: boolean, n: string, a: A
       $('ttDot').style.background = d.c || '';
       $('ttSplit').textContent = d.split;
       tip.hidden = false;
-      // Beside the guide, flipped left when it would leave the card, and
-      // above the plot: its bottom edge on the top gridline, so it covers the
-      // heading and legend and leaves the lines in view. On the x-axis it hid
-      // too much of the chart (2026-09-25).
+      ${/* Beside the guide, flipped left when it would leave the card, and
+         above the plot: its bottom edge on the top gridline, so it covers the
+         heading and legend and leaves the lines in view. On the x-axis it hid
+         too much of the chart (2026-09-25). */ ""}
       const box = chart.getBoundingClientRect(), outer = card.getBoundingClientRect();
       const gx = box.left - outer.left + (Number(d.x) / Number(chart.getAttribute('viewBox').split(' ')[2])) * box.width;
       const left = gx + 12 + tip.offsetWidth > outer.width ? gx - 12 - tip.offsetWidth : gx + 12;
@@ -621,14 +621,14 @@ export function activityBody(r: cli.Report, collecting: boolean, n: string, a: A
       const plotTop = box.top - outer.top + (Number(chart.dataset.top) / vb[3]) * box.height;
       tip.style.top = Math.max(0, plotTop - tip.offsetHeight) + 'px';
     }));
-    // What made this spike? Hovering a slot lights the rows with changes in
-    // it; clicking opens them and marks the files that account for it. Every
-    // click first closes ALL open rows, so the table always shows exactly one
-    // slot's answer, and a slot without risk findings closes everything — the
-    // collapse-all, with no button of its own; clicking the same slot again
-    // closes what it opened, a toggle (Dirk, 2026-09-25). Exact,
-    // from the CLI's per-row and per-file slots — not from Seen, which would
-    // light a row that spans the hour at every slot it wrote nothing in.
+    ${/* What made this spike? Hovering a slot lights the rows with changes in
+       it; clicking opens them and marks the files that account for it. Every
+       click first closes ALL open rows, so the table always shows exactly one
+       slot's answer, and a slot without risk findings closes everything — the
+       collapse-all, with no button of its own; clicking the same slot again
+       closes what it opened, a toggle (Dirk, 2026-09-25). Exact,
+       from the CLI's per-row and per-file slots — not from Seen, which would
+       light a row that spans the hour at every slot it wrote nothing in. */ ""}
     const slotsOf = (el) => new Set((el.dataset.slots || '').split(',').filter(Boolean).map(Number));
     const lit = [...document.querySelectorAll('.rows > li[data-slots]')]
       .map((el) => ({ el, set: slotsOf(el), files: [...el.querySelectorAll('.files > li[data-slots]')]
@@ -661,9 +661,9 @@ export function activityBody(r: cli.Report, collecting: boolean, n: string, a: A
       [guide, mkLogs, mkRisk].forEach((el) => show(el, false));
       lit.forEach((r) => r.el.classList.remove('tl-on'));
     });
-    // The reverse: WHEN did this row happen? The mouse on a row, or on one
-    // file in it, shades exactly its slots in the chart — contiguous slots as
-    // one band, from the slot strips' own geometry.
+    ${/* The reverse: WHEN did this row happen? The mouse on a row, or on one
+       file in it, shades exactly its slots in the chart — contiguous slots as
+       one band, from the slot strips' own geometry. */ ""}
     const bands = document.getElementById('tlBands');
     const strip = new Map([...chart.querySelectorAll('.tl-hit')].map((h) => [Number(h.dataset.i),
       { x: Number(h.getAttribute('x')), w: Number(h.getAttribute('width')), y: h.getAttribute('y'), h: h.getAttribute('height') }]));
@@ -692,11 +692,11 @@ export function activityBody(r: cli.Report, collecting: boolean, n: string, a: A
       r.el.addEventListener('mouseleave', () => bands.replaceChildren());
     }
   })();
-  // The severity boxes, the timeline's way (2026-09-29): point to light the
-  // rows of that severity; click to close whatever is open, open that
-  // severity's rows and scroll to the first — rows sort by severity, so they
-  // are one block; click again to close. Not a filter: the window picker stays
-  // the only selector, and every row stays on the page.
+  ${/* The severity boxes, the timeline's way (2026-09-29): point to light the
+     rows of that severity; click to close whatever is open, open that
+     severity's rows and scroll to the first — rows sort by severity, so they
+     are one block; click again to close. Not a filter: the window picker stays
+     the only selector, and every row stays on the page. */ ""}
   (() => {
     const rows = [...document.querySelectorAll('.rows > li[data-sev]')];
     for (const box of document.querySelectorAll('.tier.live')) {
@@ -722,11 +722,11 @@ export function activityBody(r: cli.Report, collecting: boolean, n: string, a: A
     document.body.classList.add('loading');
     vscode.postMessage({ command: 'window', value: e.target.value });
   });
-  // Rows that find opened. They are not the user's choice, so they are not
-  // reported as open: clearing the find closes them again, and a rebuild
-  // re-opens them by re-running the same query.
+  ${/* Rows that find opened. They are not the user's choice, so they are not
+     reported as open: clearing the find closes them again, and a rebuild
+     re-opens them by re-running the same query. */ ""}
   const fopened = new Set();
-  // Report every open/close so the next rebuild can render it the same way.
+  ${/* Report every open/close so the next rebuild can render it the same way. */ ""}
   for (const d of document.querySelectorAll('details[data-k]')) {
     d.addEventListener('toggle', () => {
       if (fopened.has(d)) return;

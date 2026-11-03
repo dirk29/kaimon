@@ -12,3 +12,4 @@ test/**
 sst-env.d.ts
 .github/**
 images/**
+samples/**
