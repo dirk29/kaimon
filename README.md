@@ -20,9 +20,9 @@
 
 ## Why kaimon
 
-- **Independent of the agent.** Agent hooks and permission rules only see what an agent routes
-  through them, and an agent can get around them: a deletion written into a script slips past a
-  deny rule for `rm`. kaimon records file changes in the Linux kernel, outside every agent.
+- **Independent of the agent.** Agent hooks and permission rules are set up inside the agent, and
+  an agent can get around them: a deletion written into a script slips past a deny rule for `rm`.
+  kaimon records file changes in the Linux kernel, outside every agent.
 - **Tamper-resistant.** A root daemon writes the record. An agent running as your user can read
   it but cannot change or delete it.
 - **Beyond your repo.** Git shows what changed in your repository. kaimon watches every

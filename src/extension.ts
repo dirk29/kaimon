@@ -459,16 +459,20 @@ export function tooltip(r: cli.Report, collecting: boolean, at: number): vscode.
 // "off" is not cosmetic. Without it, a quiet window and a dead daemon render
 // identically, and a security tool that has silently stopped working looks
 // exactly like one with nothing to report.
-// The hover for a setup problem: what is wrong, the one command that fixes it
-// and a link that copies that command.
+// The hover for a setup problem: what is wrong, the one command that fixes it,
+// and on their own line (the hover clips a long line) a link that types the
+// command into a terminal and one that copies it.
 function setupTip(st: cli.Setup): vscode.MarkdownString {
-  const copy = `command:kaimon.copyCommand?${encodeURIComponent(JSON.stringify([st.command]))}`;
+  const arg = encodeURIComponent(JSON.stringify([st.command]));
   const tip = new vscode.MarkdownString(
     `**${st.title}**` +
-      (st.command ? `\n\n${st.label}: \`${st.command}\` [Copy](${copy})` : "") +
+      (st.command
+        ? `\n\n${st.label}: \`${st.command}\`  \n` +
+          `[Open in terminal](command:kaimon.openTerminal?${arg}) · [Copy](command:kaimon.copyCommand?${arg})`
+        : "") +
       (st.note ? `\n\n${st.note}` : ""),
   );
-  tip.isTrusted = { enabledCommands: ["kaimon.copyCommand"] };
+  tip.isTrusted = { enabledCommands: ["kaimon.openTerminal", "kaimon.copyCommand"] };
   return tip;
 }
 
@@ -554,6 +558,13 @@ export function activate(context: vscode.ExtensionContext): void {
     vscode.commands.registerCommand("kaimon.showActivity", () => panel.showActivity()),
     vscode.commands.registerCommand("kaimon.showReport", () => panel.showReport()),
     vscode.commands.registerCommand("kaimon.refresh", () => tick()),
+    // Types the setup command into a new terminal on this host without
+    // pressing Enter: the user sees the sudo command before it runs.
+    vscode.commands.registerCommand("kaimon.openTerminal", (command: string) => {
+      const term = vscode.window.createTerminal({ name: "kaimon" });
+      term.show();
+      term.sendText(command, false);
+    }),
     vscode.commands.registerCommand("kaimon.copyCommand", async (command: string) => {
       await vscode.env.clipboard.writeText(command);
       vscode.window.showInformationMessage(`Copied: ${command}`);

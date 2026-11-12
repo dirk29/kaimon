@@ -10,6 +10,7 @@
 //
 // No vscode import, so it runs headless under the tests.
 
+import * as os from "os";
 import * as cli from "./cli";
 
 export interface Row {
@@ -331,10 +332,11 @@ export function updatedAt(at: number): string {
 // "Top 10 of 19 · Host ubu26:/ · Updated 3:37:59pm". The window is not here:
 // it leads the header line instead ("Last 1h Agents …"), where it scopes the
 // numbers it belongs to. The caller passes its own escaper: markdown for the
-// hover, HTML for the panel.
+// hover, HTML for the panel. A report with no activity yet names no host; the
+// extension runs on the host it reports on, so its own hostname stands in.
 export function footerText(shown: number, total: number, host: string,
   at: number, esc: (s: string) => string = (s) => s): string {
-  return `Top ${shown} of ${total} \u00b7 Host ${esc(host)}:/ \u00b7 Updated ${updatedAt(at)}`;
+  return `Top ${shown} of ${total} \u00b7 Host ${esc(host || os.hostname())}:/ \u00b7 Updated ${updatedAt(at)}`;
 }
 
 // Every group, worst first. Returns a new array; the report is not reordered.

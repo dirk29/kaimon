@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+- Setup hints (daemon not installed, not running, cannot start, local collection off): **Open in
+  terminal** types the fix into a new terminal on this host, ready to run with Enter. The hover and
+  the panel both have it, next to **Copy**.
+- The footer names the host even before the first file change is recorded.
+
 ## 1.4.0
 
 First release.

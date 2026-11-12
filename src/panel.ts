@@ -829,16 +829,24 @@ export function activityBody(r: cli.Report, collecting: boolean, n: string, a: A
 }
 
 function errorBody(msg: string, n: string, setup?: cli.Setup): string {
-  // A setup problem shows its fix as selectable text: the same title, command
-  // and note as the hover, which adds a Copy link.
+  // A setup problem shows its fix as selectable text, with the same title,
+  // command and note as the hover, and the hover's two actions as buttons. The
+  // buttons only name the action: the extension takes the command from its own
+  // state, never from the page.
+  const actions = setup?.command
+    ? `<p><button id="term" class="btn">Open in terminal</button> <button id="copy" class="btn">Copy</button></p>` +
+      `<script nonce="${n}">const k = acquireVsCodeApi();` +
+      `document.getElementById('term').onclick = () => k.postMessage({ command: 'terminal' });` +
+      `document.getElementById('copy').onclick = () => k.postMessage({ command: 'copy' });</script>`
+    : "";
   const body = setup
     ? `<p class="down">${esc(setup.title)}</p>` +
-      (setup.command ? `<p>${esc(setup.label ?? "")}: <code>${esc(setup.command)}</code></p>` : "") +
+      (setup.command ? `<p>${esc(setup.label ?? "")}: <code>${esc(setup.command)}</code></p>${actions}` : "") +
       (setup.note ? `<p>${esc(setup.note)}</p>` : "")
     : `<p class="down">${esc(msg)}</p>`;
   return `<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'nonce-${n}';">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'nonce-${n}'; script-src 'nonce-${n}';">
 <style nonce="${n}">${styles()}</style></head>
 <body><h1>kaimon</h1>${body}</body></html>`;
 }
@@ -907,6 +915,11 @@ export async function showActivity(): Promise<void> {
         }
       } else if (m?.command === "scroll" && typeof m.y === "number") {
         view.scrollY = m.y;
+      } else if ((m?.command === "terminal" || m?.command === "copy") && latest && "error" in latest && latest.setup?.command) {
+        void vscode.commands.executeCommand(
+          m.command === "terminal" ? "kaimon.openTerminal" : "kaimon.copyCommand",
+          latest.setup.command,
+        );
       } else if (m?.command === "loaded" && openedAt) {
         log?.info(`panel: page loaded ${Date.now() - openedAt}ms after the click`);
         openedAt = 0;
